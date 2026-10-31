@@ -18,3 +18,7 @@ Development follows the Scientific Software Development Protocol (SSDP) 7.2.1. A
 | `workplans/active/` | Architecture proposals, manual candidates, reviews and review requests in progress |
 | `workplans/archive/` | Completed or superseded workplans |
 | `history/SEMANTIC_EVOLUTION.md` | Reasons for material semantic changes |
+
+## License
+
+UPMS is released under the [MIT License](LICENSE).
