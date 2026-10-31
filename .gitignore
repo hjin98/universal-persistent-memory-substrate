@@ -1,0 +1,12 @@
+# Editor and IDE state
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS residue
+.DS_Store
+Thumbs.db
+
+# Local agent settings
+.claude/settings.local.json
