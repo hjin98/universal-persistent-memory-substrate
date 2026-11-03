@@ -51,7 +51,7 @@ The owner then settled five of the questions this proposal raised, in conversati
     2. there is no "track record" view of a person; looking up a person's works stays ordinary search by author.
 - **D-33 — Anonymous and blinded review of works.** Critiques and rebuttals of works and arguments may be anonymous, and a review may be single-blind or double-blind. An anonymous critique is a record, not authority: it is judged on its argument and stays open to scrutiny and debate. Claims about a person are never anonymous (D-32).
   - **De-escalation, not unmasking.** An anonymous message that plainly contains a personal attack is blocked: withheld from its recipient and returned to its author to revise. The writer's identity is never revealed for this, because a revealed name would likely escalate a moment the writer would regret face to face.
-- **D-34 — A neutral review editor.** A review runs under an editor who is as neutral and third-party as possible: an agent, or an assigned role with no conflict of interest with either side. The editor holds the sealed identities.
+- **D-34 — A neutral judge.** A review runs under a judge who is as neutral and third-party as possible: an agent, or an assigned role with no conflict of interest with either side. The judge holds the sealed identities. (First called the review editor; renamed because this is not a journal.)
 - **D-27 — No strict profile in the first product.** It is added when a project with restricted data needs it.
 - **D-28 — Four access rights:** read, write, curate, manage. "List" merges into read, and deleting others' items merges into curate.
 - **D-29 — Any curator of the scope** may confirm that a flagged record moves to the archive.
@@ -419,30 +419,30 @@ A critic may later choose to sign. Anonymity is never lifted against a writer's 
 
 **Scope of anonymity.** Anonymity covers critiques and rebuttals of **works and arguments**. A claim about a person is always signed (§6.4, D-32), because the critic's own accountability is what makes a judgment of a person acceptable. **AI critics are never anonymous.** Anonymity protects people's careers, and a model has none; its model and version are shown because they are a technical channel with known biases.
 
-**Sealed, not unknown.** UPMS records the true author of every anonymous record (attribution integrity, §8.1) but shows it to no participant. Only the review editor sees it, and it is used for exactly three things:
+**Sealed, not unknown.** UPMS records the true author of every anonymous record (attribution integrity, §8.1) but shows it to no participant. Only the judge sees it, and it is used for exactly three things:
 - **conflict-of-interest checks:** a reviewer is not the author or a close collaborator;
 - **independence accounting:** several anonymous critiques from one person count as one critic, without revealing who, because agreement is not corroboration (§5.4);
-- **the editor's own conflict check** (below).
+- **the judge's own conflict check** (below).
 
 **De-escalation, not unmasking.** An anonymous message that plainly contains a personal attack is **blocked**:
 - It is withheld from its recipient and returned to its author with the reason, so the author can revise it and resubmit the argument without the attack.
-- The block is a record attributed to the editor.
+- The block is a record attributed to the judge.
 - The identity is not revealed.
-- In keeping with D-25, the blocked text is kept, sealed and visible only to its author and the editor, and is deleted only on explicit request.
+- In keeping with D-25, the blocked text is kept, sealed and visible only to its author and the judge, and is deleted only on explicit request.
 
 Blocking applies to attacks on people, never to harsh criticism of a work: a "cruel"-sounding critique of an argument is legitimate review. Where it is unclear which one a message is, the editor returns it with a suggestion rather than blocking it.
 
-**The review editor (D-34).** Each review has an editor who is as neutral and third-party as possible:
+**The judge (D-34).** Each review has a judge who is as neutral and third-party as possible. The judge is a role in the review process, distinct from a Judgment record (§3.6), which is an assessment of a claim.
 - **An agent.** Its decisions show its model and version. Because AI makes mistakes, the author of a blocked message may appeal to a human with no conflict of interest. When the editor is an agent, no human sees the sealed identities.
-- **An assigned human role** with no conflict of interest with the author or any critic. The editor's own conflict is checked against the sealed identities when the editor is assigned.
+- **An assigned human role** with no conflict of interest with the author or any critic. The judge's own conflict is checked against the sealed identities when the editor is assigned.
 
-The PI or project lead is not the editor of reviews of their own project's work.
+The PI or project lead is not the judge of reviews of their own project's work.
 
 **Masked review copies.** Every record is attributed, and its provenance leads back to its authors. A blinded reviewer therefore sees a **review package**: a derived view of the work with attribution masked and provenance withheld, while the canonical record keeps everything. This reuses candidate 5's lineage exclusion for blind work (§10.6.4, decision D-10). Blinding is best effort, and the review package says so: writing style, self-citation and timing can still identify someone.
 
 **Record, not authority.** An anonymous critique follows the ordinary objection rules (§3.4): it is unresolved until resolved, a dispute keeps it visible, and it is judged on its argument. Anonymity neither adds weight nor removes it.
 
-**Ownership.** The SCIRE front end owns the review process: choosing the mode, assigning reviewers and the editor, running rounds of critique and reply, and blocking. UPMS owns sealed attribution, masked review packages and independence accounting.
+**Ownership.** The SCIRE front end owns the review process: choosing the mode, assigning reviewers and the judge, running rounds of critique and reply, and blocking. UPMS owns sealed attribution, masked review packages and independence accounting.
 
 ---
 
@@ -677,7 +677,7 @@ No implementation is authorized by this sequence.
 | 6 | Approach to judgment on judgment | **Open, technical; left to review.** Proposed: standing as a read-time projection plus explicit judgment bases (§6.1) |
 | 7 | Status of candidate 5 | **Decided (D-23):** frozen as an input; its independent review is not requested |
 | 8 | Anonymous and blinded review | **Decided (D-33):** open, single-blind and double-blind modes for critiques of works; personal attacks blocked and returned, never unmasked (§7.1) |
-| 9 | Who holds sealed identities | **Decided (D-34):** a neutral review editor, either an agent or an assigned role with no conflict of interest (§7.1) |
+| 9 | Who holds sealed identities | **Decided (D-34):** a neutral judge, either an agent or an assigned role with no conflict of interest (§7.1) |
 
 ---
 
@@ -721,7 +721,7 @@ No implementation is authorized by this sequence.
 | Source ranking entrenches orthodoxy or turns political | Dissenters down-ranked; people judged instead of work | Track record only from independent later assessment; works judged one by one; people never scored (§6.4, D-32) |
 | Memory misjudges a real person | Harm to someone's reputation, life or career | No person-level output; authorship never an assessment or ranking input; no characterization in synthesis (§6.4, D-32) |
 | Anonymity used for attacks or fake consensus | Personal harm; one critic posing as many | Personal attacks blocked and returned; sealed identity counts one critic once (§7.1) |
-| An agent editor blocks legitimate harsh critique | Genuine review suppressed | Harsh criticism of work is never blocked; unclear cases are returned with a suggestion; appeal to a human with no conflict (§7.1) |
+| An agent judge blocks legitimate harsh critique | Genuine review suppressed | Harsh criticism of work is never blocked; unclear cases are returned with a suggestion; appeal to a human with no conflict (§7.1) |
 | A theory layer makes basic memory heavy | Project-memory users pay for science | Theory records are optional; Slice 1 needs none |
 | Standing propagation is expensive or unstable | Slow or flickering status | Read-time projection with bounded traversal and explicit staleness, as candidate 5 §10.5.3 does for hubs |
 | Unbounded growth with no time-based deletion | Storage and retrieval cost | Archive tier out of default retrieval; space-only deletion suggestions; explicit deletion |

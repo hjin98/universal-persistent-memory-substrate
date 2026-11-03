@@ -65,7 +65,7 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Affected:** `workplans/active/UPMS_Theory_Evidence_Memory_Proposal_v0.1.md` §0.2, §6.4, §12 (TE-13), §15 and §17. Candidate 5's non-goal "no person reputation" is restored and extended.
 - **Disposition:** owner decision; D-26 and D-31 stay in the record as superseded; the proposal stays unreviewed.
 
-## 2026-11-03 — D-32 confirmed; anonymous and blinded review with a neutral editor (owner decisions D-33, D-34)
+## 2026-11-03 — D-32 confirmed; anonymous and blinded review with a neutral judge (owner decisions D-33, D-34)
 
 - **Previous:**
   - D-32 had been recorded but not yet confirmed.
@@ -73,7 +73,7 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Replacement:**
   - **D-32 confirmed, with two clarifications.** The owner's reasoning: in human debate, a critic of a person stakes their own reputation and can be rebutted, while a system or agent stakes nothing and over-simplifies, which damages its neutrality. So only humans judge people, as signed, attributed claims linked to replies, and there is no track-record view.
   - **D-33.** Critiques and rebuttals of works may be open, single-blind or double-blind. An anonymous critique is a record, not authority, and is judged on its argument. Claims about people and AI critiques are never anonymous. Identity is sealed, not unknown: it is used for conflict checks and independence accounting. Anonymous personal attacks are blocked and returned to their writer for revision (de-escalation), never unmasked.
-  - **D-34.** A neutral review editor holds the sealed identities: an agent, or an assigned role with no conflict of interest.
+  - **D-34.** A neutral judge holds the sealed identities: an agent, or an assigned role with no conflict of interest. It was first called the review editor and renamed at the owner's request, because this is not a journal.
 - **Trigger:** the owner's discussion on 3 November 2026, drawing on peer-review practice. On abuse: "the correct action is de-escalation instead… a revealed name there would likely cause personal escalation."
 - **Affected:** `workplans/active/UPMS_Theory_Evidence_Memory_Proposal_v0.1.md` §0.2, §6.4, new §7.1, §12 (TE-15), §15 and §17.
 - **Disposition:** owner decisions; the proposal stays unreviewed.
