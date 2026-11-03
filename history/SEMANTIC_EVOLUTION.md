@@ -103,3 +103,15 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the owner's observation on 3 November 2026 that the PI's arguments need review too, so a discussion chair cannot be the neutral party. "Let's just reserve this function only when it is needed."
 - **Affected:** `workplans/active/UPMS_Theory_Evidence_Memory_Proposal_v0.1.md` §0.2, §7, §7.1, §15 and §17.
 - **Disposition:** owner decision; the proposal stays unreviewed.
+
+## 2026-11-03 — Review-chair appointment; anonymous objections never block (owner decisions D-35, D-36)
+
+- **Previous:**
+  - The proposal said a review chair is appointed when someone needs anonymity, but not by whom.
+  - An anonymous objection was subject to SCIRE's ordinary objection rule, so it could block a decision.
+- **Replacement:**
+  - **D-35.** Any participant may ask for a review chair, and posting anonymously counts as asking. By default the system appoints a fresh agent. A person serves only by explicit assignment from a participant with the manage right on the discussion's scope.
+  - **D-36.** Anonymous objections inform but never block a decision, finalization or publication. They are shown with everything they apply to. A critic who later signs makes the objection an ordinary one from then on.
+- **Trigger:** the owner's answers on 3 November 2026. A fresh agent is always available; a human chair needs explicit assignment by someone with administrator permission; an anonymous critic likely has little or no stake, so should not block progress.
+- **Affected:** `workplans/active/UPMS_Theory_Evidence_Memory_Proposal_v0.1.md` §0.1, §0.2, §7.1, §12 (TE-15), §15 and §17. The objection rule itself is SCIRE front-end policy, and its specification must reflect D-36.
+- **Disposition:** owner decisions; the proposal stays unreviewed. It keeps the label v0.1 and is frozen at its current hash for review.

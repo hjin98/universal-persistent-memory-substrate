@@ -20,7 +20,7 @@
 | Interoperability Proposal v0.4 | SCIRE repository, SHA-256 `d901deb5e7bc6f749c4770eb7aef3d75325fee472ef00b5981ee7861666d09e3` | The separated design this proposal replaces for UPMS and SCIRE |
 | SCIRE v0.4 same-family re-review | SCIRE repository, `workplans/active/SCIRE_v0.4_Re-Review.md`, SHA-256 `2d5fb01e6dce22340f87d58bda81caba9001c27adfe56de7d480b0bd9ee6b52e` | Findings SC-41 to SC-43 and V4-04 to V4-20, carried or dissolved in §13 |
 | SSDS 8.0 Architecture Manual (accepted-current, G1) and SSDP references | `scientific-software-development-system`, `orchestrator/docs/ssds-8.0-architecture.md`; `source/shared/references/` | Ideas borrowed in §10. SSDS itself stays outside |
-| Product owner's decisions | This design conversation, 2 and 3 November 2026 | D-20 to D-34 below |
+| Product owner's decisions | This design conversation, 2 and 3 November 2026 | D-20 to D-36 below |
 
 ### 0.2 Owner decisions bound by this proposal
 
@@ -41,7 +41,7 @@ The owner stated these in conversation on 2 November 2026. They continue the UPM
   - Deletion happens only when a user explicitly asks, for example to save space.
   - Retention was not in the owner's original proposal; it was added by an agent.
 
-The owner then settled five of the questions this proposal raised, in conversation on 3 November 2026 (§15; D-26 to D-30). Later that day they revised D-26 twice, ending at D-32, and added D-33 and D-34 on review:
+The owner then settled five of the questions this proposal raised, in conversation on 3 November 2026 (§15; D-26 to D-30). Later that day they revised D-26 twice, ending at D-32, and added D-33 to D-36 on review:
 
 - **D-26 — Rank a person's work, never the person.** *Superseded by D-31 the same day.* Ranking people introduces politics. Source assessment applies to works (a paper, a dataset, a measurement, an analysis, a reported result), never to a person.
 - **D-27 — No strict profile in the first product.** It is added when a project with restricted data needs it.
@@ -56,6 +56,8 @@ The owner then settled five of the questions this proposal raised, in conversati
 - **D-33 — Anonymous and blinded review of works.** Critiques and rebuttals of works and arguments may be anonymous, and a review may be single-blind or double-blind. An anonymous critique is a record, not authority: it is judged on its argument and stays open to scrutiny and debate. Claims about a person are never anonymous (D-32).
   - **De-escalation, not unmasking.** An anonymous message that plainly contains a personal attack is blocked: withheld from its recipient and returned to its author to revise. The writer's identity is never revealed for this, because a revealed name would likely escalate a moment the writer would regret face to face.
 - **D-34 — Reserved review chair; optional facilitator.** Ordinary discussion is open, spontaneous and decentralized: participants cross-review and debate each other's arguments, the PI's included, and need neither anonymity nor a central reviewer. Anonymity is a reserved function, used only when needed. It then runs under a **review chair**: a neutral agent or third-party person who has not participated in the discussion and has no stake in it, and who holds the sealed identities. A discussion may separately have a **facilitator**, SCIRE's existing role, who organizes, steers and summarizes, holds no seal and decides nothing. (The neutral role was called the review editor, then the judge, then the chair, before this split on 3 November 2026.)
+- **D-35 — How a review chair is appointed.** Any participant may ask for anonymity or a blinded review. By default the system then appoints a fresh agent as review chair, because one is always available. A person serves as review chair only by explicit assignment from a participant with the manage right on the discussion's scope; at least one such participant always exists, since someone has to start and run the discussion.
+- **D-36 — Anonymous critiques inform; they never block.** An anonymous objection is recorded and shown with everything it applies to, but it never blocks a decision, finalization or publication. An anonymous critic is likely to have little or no stake in the project, so it should not hold up progress.
 
 Where this text reads a decision narrowly or raises a concern, it says so in place (§6.4, §8.3, §9.1). §15 lists the decisions and what remains open.
 
@@ -420,7 +422,7 @@ The facilitator's aim is coverage of material questions and minority positions, 
 
 The facilitator holds no sealed identities and runs no anonymous review. A participant, including the PI, may facilitate.
 
-**Review chair (reserved, D-34).** When someone needs anonymity or a blinded review, a **review chair** is appointed for that review. The review chair is neutral: an agent or a third-party person **who has not participated in the discussion and has no stake in it**. That excludes anyone who wrote the work under review, collaborates closely with its author, critiques it, or is PI of the project whose work it is. An agent review chair is one that has not taken part in the discussion and does not share its context. The review chair:
+**Review chair (reserved, D-34, D-35).** When someone needs anonymity or a blinded review, a **review chair** is appointed for that review. Any participant may ask. By default the system appoints a **fresh agent**. A person serves as review chair only when a participant with the manage right on the discussion's scope explicitly assigns one. Posting anonymously in an ordinary discussion is itself such a request. The review chair is neutral: an agent or a third-party person **who has not participated in the discussion and has no stake in it**. That excludes anyone who wrote the work under review, collaborates closely with its author, critiques it, or is PI of the project whose work it is. An agent review chair is one that has not taken part in the discussion and does not share its context. The review chair:
 - holds the sealed identities for that review;
 - runs its rounds of critique and reply;
 - blocks personal attacks (below);
@@ -457,7 +459,9 @@ Blocking applies to attacks on people, never to harsh criticism of a work: a "cr
 
 **Masked review copies.** Every record is attributed, and its provenance leads back to its authors. A blinded reviewer therefore sees a **review package**: a derived view of the work with attribution masked and provenance withheld, while the canonical record keeps everything. This reuses candidate 5's lineage exclusion for blind work (§10.6.4, decision D-10). Blinding is best effort, and the review package says so: writing style, self-citation and timing can still identify someone.
 
-**Record, not authority.** An anonymous critique follows the ordinary objection rules (§3.4): it is unresolved until resolved, a dispute keeps it visible, and it is judged on its argument. Anonymity neither adds weight nor removes it.
+**Record, not authority; informs, never blocks (D-36).** An anonymous critique follows the ordinary objection rules (§3.4): it is unresolved until resolved, a dispute keeps it visible, it appears with everything it applies to, and it is judged on its argument. Anonymity neither adds argumentative weight nor removes it.
+
+An anonymous objection **never blocks** a decision, finalization or publication under SCIRE's objection rule, because an anonymous critic is likely to have little or no stake in the project. A decision taken while one is unresolved shows it, unblocked, like any other applicable objection. If the critic later signs, the objection becomes an ordinary signed objection from then on, and the ordinary rule applies. This also removes the incentive to stall a decision with a stream of anonymous objections.
 
 **Ownership.** The SCIRE front end owns the discussion and review process: facilitation, appointing a review chair when one is requested, choosing the mode, running rounds of critique and reply, and blocking. UPMS owns sealed attribution, masked review packages and independence accounting.
 
@@ -611,7 +615,7 @@ Each hub has exact projections, a consolidated narrative labeled as synthesis, a
 
 **TE-14 — External authority stays external.** SSDS definitions and results are referenced with their owner and qualification, never re-authored.
 
-**TE-15 — Anonymous, not unaccountable.** Anonymous critiques of works keep sealed true attribution, used only for conflict checks and independence accounting; anonymity is never lifted against the writer's will; personal attacks are blocked and returned, never unmasked; claims about people and AI critiques are never anonymous.
+**TE-15 — Anonymous, not unaccountable.** Anonymous critiques of works keep sealed true attribution, used only for conflict checks and independence accounting; anonymity is never lifted against the writer's will; personal attacks are blocked and returned, never unmasked; anonymous objections inform but never block; claims about people and AI critiques are never anonymous.
 
 ---
 
@@ -696,6 +700,8 @@ No implementation is authorized by this sequence.
 | 7 | Status of candidate 5 | **Decided (D-23):** frozen as an input; its independent review is not requested |
 | 8 | Anonymous and blinded review | **Decided (D-33):** open, single-blind and double-blind modes for critiques of works; personal attacks blocked and returned, never unmasked (§7.1) |
 | 9 | Who holds sealed identities | **Decided (D-34):** a review chair, appointed only when anonymity or blinded review is needed: an agent or third-party person who has not participated and has no stake. Ordinary debate needs none; an optional facilitator runs discussion (§7.1) |
+| 10 | How a review chair is appointed | **Decided (D-35):** a fresh agent by default, on any participant's request; a person only by explicit assignment from a holder of the manage right (§7.1) |
+| 11 | Can anonymous objections block decisions? | **Decided (D-36):** no; they are shown with everything they apply to but never block. A critic who later signs makes the objection an ordinary one (§7.1) |
 
 ---
 
@@ -740,7 +746,7 @@ No implementation is authorized by this sequence.
 | Synthesized "understanding" resolves tension | Status inflation, dissent loss | Status-not-winners projection; narrative labeled; contradiction check against projections (§11) |
 | Source ranking entrenches orthodoxy or turns political | Dissenters down-ranked; people judged instead of work | Track record only from independent later assessment; works judged one by one; people never scored (§6.4, D-32) |
 | Memory misjudges a real person | Harm to someone's reputation, life or career | No person-level output; authorship never an assessment or ranking input; no characterization in synthesis (§6.4, D-32) |
-| Anonymity used for attacks or fake consensus | Personal harm; one critic posing as many | Personal attacks blocked and returned; sealed identity counts one critic once (§7.1) |
+| Anonymity used for attacks, fake consensus or obstruction | Personal harm; one critic posing as many; decisions stalled | Personal attacks blocked and returned; sealed identity counts one critic once; anonymous objections never block (§7.1, D-36) |
 | The facilitator's steering or summary tilts the discussion | Minority positions sidelined; status inflation | Steering is not deciding; summaries labeled synthesis, attributed and correctable, and must show live positions and unresolved objections (§7.1) |
 | An agent review chair blocks legitimate harsh critique | Genuine review suppressed | Harsh criticism of work is never blocked; unclear cases are returned with a suggestion; appeal to a human with no conflict (§7.1) |
 | A theory layer makes basic memory heavy | Project-memory users pay for science | Theory records are optional; Slice 1 needs none |
