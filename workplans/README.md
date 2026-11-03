@@ -1,6 +1,6 @@
 # Workplans
 
-This index lists the coordination records in `workplans/`. It routes to the documents and is not itself authority: each document states its own status. As of 31 October 2026 no architecture manual is accepted-current.
+This index lists the coordination records in `workplans/`. It routes to the documents and is not itself authority: each document states its own status. As of 2 November 2026 no architecture manual is accepted-current.
 
 ## Lifecycle
 
@@ -24,8 +24,9 @@ This index lists the coordination records in `workplans/`. It routes to the docu
 | `UPMS_Architecture_Manual_Review_Candidate_4.md` | Manual, review candidate 4 | First issue, SHA-256 `d2146daa…` |
 | `UPMS_Re-Review_Request_Candidate_4.md` | Review request | Cites the first issue of candidate 4 |
 | `check_C4.md` | Review record | Same-family check of a candidate 4 draft, findings K-01–K-20 |
-| `UPMS_Architecture_Manual_Review_Candidate_4_1.md` | Manual, review candidate 4 | Revised issue, SHA-256 `19a9e3ed…`; open for independent review |
+| `UPMS_Architecture_Manual_Review_Candidate_4_1.md` | Manual, review candidate 4 | Revised issue, SHA-256 `19a9e3ed…`; reviewed NO-PASS in the same-family review below; superseded by candidate 5 |
 | `UPMS_Re-Review_Request_Candidate_4_1.md` | Review request | Cites the revised issue under the file name `UPMS_Architecture_Manual_Review_Candidate_4.md` |
 | `UPMS_Candidate_4_Same_Family_Review.md` | Review record | Same-family (Claude) review of the revised candidate 4: NO-PASS, Serious Challenge SC-1, findings N-01–N-12; not the independent review Gate 0 requires |
+| `UPMS_Architecture_Manual_Review_Candidate_5.md` | Manual, review candidate 5 | Repairs SC-1 and N-01–N-12 (change map in its Appendix A.7), SHA-256 `406cf3b4…`; proposes revised outcomes for D-8, D-9, D-13, D-16 to D-19, pending the owner; not yet reviewed |
 
 Not in this repository, although the review packages cite them: candidate 3, the candidate 2 cross-review, the candidate 3 interim review and its sub-reports A, B and C.
