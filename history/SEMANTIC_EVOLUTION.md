@@ -141,3 +141,22 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the owner's request to re-read the Codex review against candidate 6's body text, and then to add recommendations before drafting.
 - **Affected:** the two new files; the review request `UPMS_Review_Request_Candidate_6_1.md`, which supersedes the unsent one for candidate 6; `workplans/README.md`. Candidate 6's word count was also corrected (about 40,600 words, not 37,900).
 - **Disposition:** proposals only. The recommendations decide nothing; the owner decides, and a reviewer outside the Claude family reviews. Candidate 6 and D1 candidate 1 are unchanged.
+
+## 2026-11-03 — Owner decisions D-37 to D-46
+
+- **Previous:** D-36's reading, operator custody, erasure propagation, when anonymous review arrives, the first-product boundary, de-attribution, channel assessment and judgment on judgment were open or proposed, with the author's recommendations in candidate 6.1 §18.2 and §18.3.
+- **Replacement:**
+  - **D-37:** D-36 is read narrowly: no veto, but an independently established invalidity changes standing.
+  - **D-38:** SCIRE's basis statement addresses every unresolved applicable objection.
+  - **D-39:** judgment on judgment is deferred.
+  - **D-40:** the operator-custody residual is accepted and disclosed to contributors.
+  - **D-41:** erasure creates obligations, with an administrator fallback.
+  - **D-42:** anonymous review arrives in Slice 3.
+  - **D-43:** restricted material is excluded, with the creator's attestation.
+  - **D-44:** de-attribution applies to derived representations.
+  - **D-45:** channel assessment is deferred.
+  - **D-46:** the SC-61 and SC-62 repairs are the chosen direction.
+  - Confirmed: D-1, D-4, D-8, D-9, D-16, D-18, D-19 and the recency rule.
+- **Trigger:** the owner accepted the recommendations ("Yes I accept the recommendations, proceed.").
+- **Affected:** `workplans/active/UPMS_Owner_Decisions_2026-11-03.md`, bound to candidate 6.1 and D1 candidate 1.1 by hash. The texts fold the decisions in at their next revision.
+- **Disposition:** owner decisions. Neither text is accepted. A same-family review was requested because the outside-family reviewer is unavailable for now; it cannot substitute for the independent review Gate 0 needs.
