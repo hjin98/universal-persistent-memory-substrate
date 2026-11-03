@@ -52,3 +52,15 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the owner reconsidered on 3 November 2026. A person's acts are more complicated than a score, but a record built from their works is useful. "Do this conservatively, and don't over-claim on someone who you don't know well."
 - **Affected:** `workplans/active/UPMS_Theory_Evidence_Memory_Proposal_v0.1.md` §0.2, §6.4, §12 (TE-13), §15 and §17. Candidate 5's non-goal "no person reputation" is narrowed to "no single person score".
 - **Disposition:** owner decision; D-26 stays in the record as superseded; the proposal stays unreviewed.
+
+## 2026-11-03 — Judge work, never score people (owner decision D-32, superseding D-31)
+
+- **Previous:** D-31 allowed a conditional, conservative per-person track record (counts of outcomes per subject and period, shown on request).
+- **Replacement:**
+  - People are never scored, ranked or labeled. There is no person-level output of any kind: no score, rank, rating, track record, tendency, outcome count or label.
+  - Authorship is never an input to a work's assessment, source assessment or retrieval ranking.
+  - No view aggregates works by author to compare or characterize authors, and synthesis must not characterize a person's reliability, competence or motives.
+  - Works and precise arguments are judged one by one, attribution stays on every record, and non-person channels may still be assessed.
+- **Trigger:** the owner's clarification on 3 November 2026. The focus is the work, not the person. Reputations can be consequential to a person's life and career, and this is an area of sensitivity: "The most conservative solution is simply don't score them… We are dealing with real people here."
+- **Affected:** `workplans/active/UPMS_Theory_Evidence_Memory_Proposal_v0.1.md` §0.2, §6.4, §12 (TE-13), §15 and §17. Candidate 5's non-goal "no person reputation" is restored and extended.
+- **Disposition:** owner decision; D-26 and D-31 stay in the record as superseded; the proposal stays unreviewed.
