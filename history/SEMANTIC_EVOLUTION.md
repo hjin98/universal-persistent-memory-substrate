@@ -128,3 +128,16 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the owner's request on 3 November 2026 to draft candidate 6 and the D1 formulation (proposal §14 step 2), and the Codex review of the proposal that arrived during drafting.
 - **Affected:** the two new files; the review request `UPMS_Review_Request_Candidate_6.md`; `workplans/README.md`, which now also indexes the Codex review.
 - **Disposition:** proposals only. The repairs and the deletion semantics need the owner's confirmation and a reviewer outside the Claude family. Candidate 5 and the proposal are unchanged.
+
+## 2026-11-03 — Candidate 6.1 and D1 formulation 1.1 (proposed)
+
+- **Previous:** candidate 6 counted independence between anonymous and signed records from sealed attribution, returned a failed conflict check's reason class, masked critic counts that per-critic pseudonyms already revealed, let `content` judgment-basis entries count without going stale, and named no owner for a scope's decision policy.
+- **Replacement (proposed, unreviewed):**
+  - Nothing a reader sees depends on sealed attribution: analyst independence between an anonymous and an attributed record, or across reviews, is "not established", and a conflict on sealed grounds shows as an ordinary decline.
+  - Signing attributes every record under the critic's pseudonym in the review. Only the critic's own agent, or a temporary review-service session, may assist an anonymous critic.
+  - A scope names its decision-policy owner, and only that front end can write `validated` decisions there.
+  - Only `current` judgment-basis entries count. Assessments of channels and their track records move to a later slice.
+  - De-attribution of derived statements is proposed. The author's recommendation is recorded on every open owner decision.
+- **Trigger:** the owner's request to re-read the Codex review against candidate 6's body text, and then to add recommendations before drafting.
+- **Affected:** the two new files; the review request `UPMS_Review_Request_Candidate_6_1.md`, which supersedes the unsent one for candidate 6; `workplans/README.md`. Candidate 6's word count was also corrected (about 40,600 words, not 37,900).
+- **Disposition:** proposals only. The recommendations decide nothing; the owner decides, and a reviewer outside the Claude family reviews. Candidate 6 and D1 candidate 1 are unchanged.
