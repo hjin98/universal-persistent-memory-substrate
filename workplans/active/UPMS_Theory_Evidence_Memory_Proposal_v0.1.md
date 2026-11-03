@@ -430,11 +430,11 @@ A critic may later choose to sign. Anonymity is never lifted against a writer's 
 - The identity is not revealed.
 - In keeping with D-25, the blocked text is kept, sealed and visible only to its author and the judge, and is deleted only on explicit request.
 
-Blocking applies to attacks on people, never to harsh criticism of a work: a "cruel"-sounding critique of an argument is legitimate review. Where it is unclear which one a message is, the editor returns it with a suggestion rather than blocking it.
+Blocking applies to attacks on people, never to harsh criticism of a work: a "cruel"-sounding critique of an argument is legitimate review. Where it is unclear which one a message is, the judge returns it with a suggestion rather than blocking it.
 
 **The judge (D-34).** Each review has a judge who is as neutral and third-party as possible. The judge is a role in the review process, distinct from a Judgment record (§3.6), which is an assessment of a claim.
-- **An agent.** Its decisions show its model and version. Because AI makes mistakes, the author of a blocked message may appeal to a human with no conflict of interest. When the editor is an agent, no human sees the sealed identities.
-- **An assigned human role** with no conflict of interest with the author or any critic. The judge's own conflict is checked against the sealed identities when the editor is assigned.
+- **An agent.** Its decisions show its model and version. Because AI makes mistakes, the author of a blocked message may appeal to a human with no conflict of interest. When the judge is an agent, no human sees the sealed identities.
+- **An assigned human role** with no conflict of interest with the author or any critic. The judge's own conflict is checked against the sealed identities when the judge is assigned.
 
 The PI or project lead is not the judge of reviews of their own project's work.
 
