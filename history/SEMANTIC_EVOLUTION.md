@@ -77,3 +77,17 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the owner's discussion on 3 November 2026, drawing on peer-review practice. On abuse: "the correct action is de-escalation instead… a revealed name there would likely cause personal escalation."
 - **Affected:** `workplans/active/UPMS_Theory_Evidence_Memory_Proposal_v0.1.md` §0.2, §6.4, new §7.1, §12 (TE-15), §15 and §17.
 - **Disposition:** owner decisions; the proposal stays unreviewed.
+
+## 2026-11-03 — The chair as the general discussion role (owner decision D-34, revised)
+
+- **Previous:**
+  - D-34 named a review editor, then a judge, as a neutral role existing only for anonymous review.
+  - SCIRE v0.4 had a separate meeting facilitator.
+- **Replacement:**
+  - Discussion is open and spontaneous by default, and anonymity is a reserved choice.
+  - The **chair** is the general discussion role: it organizes and orchestrates the discussion, manages its direction, takes views from all sides, summarizes, and runs anonymous critique when needed. It absorbs the facilitator.
+  - Steering is not deciding, and the chair's summaries are attributed, labeled synthesis.
+  - When the chair has a conflict with an anonymous critique (author, close collaborator, or PI of the work), the seal and any blocking for that critique pass to a conflict-free agent. This preserves D-34's requirement of a neutral, conflict-free holder of identities.
+- **Trigger:** the owner's request on 3 November 2026 for a more appropriate name than "judge", and the clarification that the role is "basically like a chair in the discussion room".
+- **Affected:** `workplans/active/UPMS_Theory_Evidence_Memory_Proposal_v0.1.md` §0.2, §7, §7.1, §15 and §17.
+- **Disposition:** owner decision; the proposal stays unreviewed. The SCIRE front-end specification will define the chair in full.
