@@ -41,7 +41,15 @@ The owner stated these in conversation on 2 November 2026. They continue the UPM
   - Deletion happens only when a user explicitly asks, for example to save space.
   - Retention was not in the owner's original proposal; it was added by an agent.
 
-Where this text reads a decision narrowly or raises a concern, it says so in place (§6.4, §8.3, §9.1) and lists the item for the owner in §15.
+The owner then settled five of the questions this proposal raised, in conversation on 3 November 2026 (§15):
+
+- **D-26 — Rank a person's work, never the person.** Ranking people introduces politics. Source assessment applies to works (a paper, a dataset, a measurement, an analysis, a reported result), never to a person.
+- **D-27 — No strict profile in the first product.** It is added when a project with restricted data needs it.
+- **D-28 — Four access rights:** read, write, curate, manage. "List" merges into read, and deleting others' items merges into curate.
+- **D-29 — Any curator of the scope** may confirm that a flagged record moves to the archive.
+- **D-30 — Project memory first.** The first slice delivers evidence memory; the theory layer and the SCIRE demonstration follow in the second.
+
+Where this text reads a decision narrowly or raises a concern, it says so in place (§6.4, §8.3, §9.1). §15 lists the decisions and what remains open.
 
 ---
 
@@ -341,7 +349,7 @@ Its output is an evidential assessment with its basis, never a hidden edit.
 
 ### 6.4 Source assessment (the owner's "source confidence ranking")
 
-A **source assessment** is a judgment about a source as an evidence channel, **for a kind of claim**. The source may be a dataset, an instrument, a publication, a database, a model or a person acting as a reporter. The assessment is ordinal (for example *established*, *generally reliable*, *mixed*, *unreliable*, *unknown*), never a calibrated probability: calibration is a D2 matter (candidate 5 §1.4, trigger 1). Its recorded basis is:
+A **source assessment** is a judgment about a **work** as an evidence channel, **for a kind of claim**. The work may be a publication, a dataset, an instrument record, a database, a model's output or a person's reported result, measurement or analysis. **A person is never ranked (D-26)**: what a person contributes is assessed work by work, on its own evidence. The assessment is ordinal (for example *established*, *generally reliable*, *mixed*, *unreliable*, *unknown*), never a calibrated probability: calibration is a D2 matter (candidate 5 §1.4, trigger 1). Its recorded basis is:
 - provenance class and channel integrity;
 - **track record**: how claims of this kind from this source fared under later *independent* assessment;
 - retractions and corrections;
@@ -352,7 +360,7 @@ It may rank retrieval and order fact-checking work. It never sets a claim's stan
 
 **Two guards, because ranking sources is where science most easily goes wrong:**
 1. **No reward for agreeing with the current view.** Track record counts only outcomes later assessed independently of the source and of the claim's own position. Disagreeing with the prevailing theory is never a mark against a source. Otherwise the ranking would entrench orthodoxy and penalize the dissent SCIRE exists to protect.
-2. **No single reputation score for a person.** This keeps candidate 5's non-goal ("no person reputation"). A person's record as a source is shown on request as the list of their assessed claims of that kind, with outcomes. Ranking persons at all is left to the owner (§15 item 1).
+2. **No ranking of persons (D-26).** This keeps candidate 5's non-goal ("no person reputation"). No score, ordering or track record is computed over a person's works taken together, and no view groups works by author in order to compare authors. A work's assessment never borrows standing from its author's other work. Attribution stays on every record, because science needs to know who said what.
 
 ---
 
@@ -394,7 +402,7 @@ It may rank retrieval and order fact-checking work. It never sets a claim's stan
 | Retrieved content is data, never instructions; no content changes a permission (§4.3, §10.4) | Basic injection protection |
 | Quarantine of suspicious content by a policy-authorized detector or investigator (§6.2) | Containment of obvious bad actors |
 | Attribution integrity: no record attributed to another principal, no forged source class | Science depends on who said what |
-| Scopes with simple rights; personal scopes; agent principals with human overseers | Unpublished work stays within its project until shared |
+| Scopes with simple rights (four: read, write, curate, manage, D-28); personal scopes; agent principals with human overseers | Unpublished work stays within its project until shared |
 | Honest coverage; "not found here" is not global absence (§10.2–§10.3) | Prevents false reassurance |
 | Explicit deletion on request (§12), simplified | Privacy and data agreements |
 
@@ -410,7 +418,7 @@ It may rank retrieval and order fact-checking work. It never sets a claim's stan
 | Requirement closure across scopes for derived items (§7.3.4 step 4, §7.3.5) | Dropped in the default profile | Same reason as D-6 |
 | Restriction epochs and release fences (§9.4), beyond deletion and correction | Keep only for deletion and correction | Proportionate |
 
-**Strict profile (opt-in, later).** A project with embargoed, industry or human-subject data can opt into containment: content written in a session that read the project stays in that project unless its owner shares it. This keeps one simple rule from D-6 for the cases that need it, without making it the default. It is not part of the first product (§15 item 2).
+**Strict profile (opt-in, later).** A project with embargoed, industry or human-subject data can opt into containment: content written in a session that read the project stays in that project unless its owner shares it. This keeps one simple rule from D-6 for the cases that need it, without making it the default. It is not part of the first product (D-27).
 
 ### 8.3 How far "truth-based robustness" goes
 
@@ -440,7 +448,7 @@ So the structure is a strong defence for **integrity of belief**. It is no defen
    - **delete suggested**, for space only, offered only for bulky duplicates and derived artifacts that can be rebuilt.
 
    Each flag gives its reason, its basis and what depends on the record.
-3. **Archive is not deletion.** An archived record leaves default proactive retrieval and the overviews. It stays fully retrievable on request, and it stays traversable in history, provenance and standing.
+3. **Archive is not deletion.** Any curator of the record's scope may confirm a recommendation and move the record to the archive (D-29). The confirmation is attributed and reversible. An archived record leaves default proactive retrieval and the overviews. It stays fully retrievable on request, and it stays traversable in history, provenance and standing.
    - A refuted claim archived this way is still a dead end someone can find.
    - A record with live dependents (cited by a live claim, an open question or a decision) is never recommended for archive until those dependents are reviewed.
 4. **Deletion only on explicit request**, by an authorized user. The request is shown with its effect: descendants, the arguments and decisions that rely on it, and what will become "input unavailable". Erasure the law or a data agreement requires is exactly such an explicit request.
@@ -526,7 +534,7 @@ Each hub has exact projections, a consolidated narrative labeled as synthesis, a
 
 **TE-12 — Nothing deleted unasked.** Retention recommendations only flag; archive keeps history; deletion requires an explicit authorized request showing its effect.
 
-**TE-13 — Source assessments rank, never decide**; they never reward agreement with the current view.
+**TE-13 — Source assessments rank works, never decide**; they never reward agreement with the current view, and no person is ranked.
 
 **TE-14 — External authority stays external.** SSDS definitions and results are referenced with their owner and qualification, never re-authored.
 
@@ -590,7 +598,7 @@ No implementation is authorized by this sequence.
 
 1. **Review this proposal.** The owner confirms or changes §15. A reviewer outside the Claude family checks it before any manual is drafted.
 2. **Draft the next manual candidate and a D1 formulation.** The D1 formulation, the theory–evidence memory semantics, is drawn from §3–§6 and SCIRE v0.4 §§4–7. The SCIRE repository gets a **front-end specification**, drawn from SCIRE v0.4 §§2, 4.4–4.5 and 8, with the re-review's repairs.
-3. **Revised slices:**
+3. **Revised slices** (project memory first, D-30):
    - **Slice 1 — evidence memory.** Candidate 5 Slice 1a-core, simplified: capture, recall, coverage, checkpoints, coordination records, correction, explicit deletion, the overview projections.
    - **Slice 2 — theory basics.** Claims with the full modality set, questions, objections, evidence and inference relations with use history, decisions, standing projection, question pages. **The SCIRE minimal demonstration (SCIRE D-J) runs here**: one real inquiry, on UPMS, against a versioned notebook plus search.
    - **Slice 3 — checking.** Structured statements and vocabulary, the three consistency channels, retraction propagation, source assessments, retention recommendations.
@@ -601,15 +609,15 @@ No implementation is authorized by this sequence.
 
 ## 15. Decisions for the owner
 
-| # | Decision | Recommended framing |
+| # | Decision | Status |
 | --- | --- | --- |
-| 1 | Are persons ranked as sources? | No single person score; a per-kind track record shown on request (§6.4) |
-| 2 | Is the strict profile needed in the first product? | No; add it when a project with restricted data needs it |
-| 3 | How far to simplify the rights model (`l r w c d m`) | Keep read, write, curate, manage; merge list into read and delete into curate unless a case needs them |
-| 4 | Who confirms archival, and what counts as importance | Any curator of the scope confirms; importance as in §9.1 rule 5 |
-| 5 | Is scientific inquiry now the first journey, or general project memory? | Keep project memory first (Slice 1), science second (Slice 2) |
-| 6 | Approach to judgment on judgment | Standing as a read-time projection plus explicit judgment bases (§6.1) |
-| 7 | Status of candidate 5 | Frozen as an input; its independent review is not requested (D-23) |
+| 1 | Are persons ranked as sources? | **Decided (D-26):** never; only a person's work is assessed (§6.4) |
+| 2 | Is the strict profile needed in the first product? | **Decided (D-27):** no; added when a project with restricted data needs it |
+| 3 | How far to simplify the rights model (`l r w c d m`) | **Decided (D-28):** four rights: read, write, curate, manage |
+| 4 | Who confirms archival, and what counts as importance | **Decided (D-29):** any curator of the scope confirms. Importance as in §9.1 rule 5 is proposed |
+| 5 | Is scientific inquiry now the first journey, or general project memory? | **Decided (D-30):** project memory first (Slice 1), science second (Slice 2) |
+| 6 | Approach to judgment on judgment | **Open, technical; left to review.** Proposed: standing as a read-time projection plus explicit judgment bases (§6.1) |
+| 7 | Status of candidate 5 | **Decided (D-23):** frozen as an input; its independent review is not requested |
 
 ---
 
@@ -650,7 +658,7 @@ No implementation is authorized by this sequence.
 | Risk | Consequence | Response |
 | --- | --- | --- |
 | Synthesized "understanding" resolves tension | Status inflation, dissent loss | Status-not-winners projection; narrative labeled; contradiction check against projections (§11) |
-| Source ranking entrenches orthodoxy | Dissenters down-ranked | Track record only from independent later assessment (§6.4) |
+| Source ranking entrenches orthodoxy or turns political | Dissenters down-ranked; people judged instead of work | Track record only from independent later assessment; works assessed, persons never ranked (§6.4, D-26) |
 | A theory layer makes basic memory heavy | Project-memory users pay for science | Theory records are optional; Slice 1 needs none |
 | Standing propagation is expensive or unstable | Slow or flickering status | Read-time projection with bounded traversal and explicit staleness, as candidate 5 §10.5.3 does for hubs |
 | Unbounded growth with no time-based deletion | Storage and retrieval cost | Archive tier out of default retrieval; space-only deletion suggestions; explicit deletion |

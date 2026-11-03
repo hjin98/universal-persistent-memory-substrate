@@ -28,3 +28,16 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
   - D-20 to D-25 are owner decisions.
   - The proposal applying them is unreviewed and unaccepted.
   - Candidate 5 stays frozen as an input, and its independent review is not requested (D-23).
+
+## 2026-11-03 — Works ranked, persons never; scope of the first product (owner decisions D-26 to D-30)
+
+- **Previous:** the theory–evidence proposal left five questions to the owner. It would have shown a person's assessed claims on request as a per-person track record.
+- **Replacement:**
+  - D-26: source assessment ranks works, never persons, because ranking people introduces politics. No score, ordering or track record is computed over a person's works taken together.
+  - D-27: no strict profile in the first product.
+  - D-28: four access rights (read, write, curate, manage).
+  - D-29: any curator of a scope confirms archival.
+  - D-30: project memory first, the theory layer second.
+- **Trigger:** the owner's answers in conversation on 3 November 2026.
+- **Affected:** `workplans/active/UPMS_Theory_Evidence_Memory_Proposal_v0.1.md` §0.2, §6.4, §8, §9.1, §12 (TE-13), §14, §15 and §17. The proposal was edited in place before any review bound it.
+- **Disposition:** owner decisions; the proposal stays unreviewed.
