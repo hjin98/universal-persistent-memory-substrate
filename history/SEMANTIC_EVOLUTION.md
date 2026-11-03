@@ -41,3 +41,14 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the owner's answers in conversation on 3 November 2026.
 - **Affected:** `workplans/active/UPMS_Theory_Evidence_Memory_Proposal_v0.1.md` §0.2, §6.4, §8, §9.1, §12 (TE-13), §14, §15 and §17. The proposal was edited in place before any review bound it.
 - **Disposition:** owner decisions; the proposal stays unreviewed.
+
+## 2026-11-03 — A person's track record, conservatively (owner decision D-31, superseding D-26)
+
+- **Previous:** D-26 banned ranking persons. Only works were assessed, and nothing was computed over a person's works together.
+- **Replacement:**
+  - Works and precise arguments are still assessed one by one.
+  - A person's track record may be built from those assessments, as a record of past tendency that can change with subject, context, time and incentives. It is not a ranking of the person.
+  - The proposal makes it conditional (per subject, context and period, with declared incentives), never a single score, "insufficient record" when evidence is thin, on request rather than proactive, disputable by the person, and never a source of standing for a new work.
+- **Trigger:** the owner reconsidered on 3 November 2026. A person's acts are more complicated than a score, but a record built from their works is useful. "Do this conservatively, and don't over-claim on someone who you don't know well."
+- **Affected:** `workplans/active/UPMS_Theory_Evidence_Memory_Proposal_v0.1.md` §0.2, §6.4, §12 (TE-13), §15 and §17. Candidate 5's non-goal "no person reputation" is narrowed to "no single person score".
+- **Disposition:** owner decision; D-26 stays in the record as superseded; the proposal stays unreviewed.

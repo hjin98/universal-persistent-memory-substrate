@@ -41,9 +41,10 @@ The owner stated these in conversation on 2 November 2026. They continue the UPM
   - Deletion happens only when a user explicitly asks, for example to save space.
   - Retention was not in the owner's original proposal; it was added by an agent.
 
-The owner then settled five of the questions this proposal raised, in conversation on 3 November 2026 (§15):
+The owner then settled five of the questions this proposal raised, in conversation on 3 November 2026 (§15), and later that day replaced D-26 with D-31:
 
-- **D-26 — Rank a person's work, never the person.** Ranking people introduces politics. Source assessment applies to works (a paper, a dataset, a measurement, an analysis, a reported result), never to a person.
+- **D-26 — Rank a person's work, never the person.** *Superseded by D-31 the same day.* Ranking people introduces politics. Source assessment applies to works (a paper, a dataset, a measurement, an analysis, a reported result), never to a person.
+- **D-31 — A person's track record, conservatively (supersedes D-26).** Ranking a person is not banned, but a person's acts are far more complicated than a score. Works and precise arguments are assessed one by one, and a record may be built from those assessed works. That record describes a person's past tendency and track record, which can change with subject, context, time and incentives. It is not a ranking of the person. Do this conservatively, and never over-claim about someone the record knows little about.
 - **D-27 — No strict profile in the first product.** It is added when a project with restricted data needs it.
 - **D-28 — Four access rights:** read, write, curate, manage. "List" merges into read, and deleting others' items merges into curate.
 - **D-29 — Any curator of the scope** may confirm that a flagged record moves to the archive.
@@ -349,7 +350,7 @@ Its output is an evidential assessment with its basis, never a hidden edit.
 
 ### 6.4 Source assessment (the owner's "source confidence ranking")
 
-A **source assessment** is a judgment about a **work** as an evidence channel, **for a kind of claim**. The work may be a publication, a dataset, an instrument record, a database, a model's output or a person's reported result, measurement or analysis. **A person is never ranked (D-26)**: what a person contributes is assessed work by work, on its own evidence. The assessment is ordinal (for example *established*, *generally reliable*, *mixed*, *unreliable*, *unknown*), never a calibrated probability: calibration is a D2 matter (candidate 5 §1.4, trigger 1). Its recorded basis is:
+A **source assessment** is a judgment about a **work** as an evidence channel, **for a kind of claim**. The work may be a publication, a dataset, an instrument record, a database, a model's output or a person's reported result, measurement, analysis or argument. What a person contributes is assessed **work by work, on its own evidence** (D-31). A person's track record is built only from those assessments, under guard 2 below. The assessment is ordinal (for example *established*, *generally reliable*, *mixed*, *unreliable*, *unknown*), never a calibrated probability: calibration is a D2 matter (candidate 5 §1.4, trigger 1). Its recorded basis is:
 - provenance class and channel integrity;
 - **track record**: how claims of this kind from this source fared under later *independent* assessment;
 - retractions and corrections;
@@ -360,7 +361,16 @@ It may rank retrieval and order fact-checking work. It never sets a claim's stan
 
 **Two guards, because ranking sources is where science most easily goes wrong:**
 1. **No reward for agreeing with the current view.** Track record counts only outcomes later assessed independently of the source and of the claim's own position. Disagreeing with the prevailing theory is never a mark against a source. Otherwise the ranking would entrench orthodoxy and penalize the dissent SCIRE exists to protect.
-2. **No ranking of persons (D-26).** This keeps candidate 5's non-goal ("no person reputation"). No score, ordering or track record is computed over a person's works taken together, and no view groups works by author in order to compare authors. A work's assessment never borrows standing from its author's other work. Attribution stays on every record, because science needs to know who said what.
+2. **A person's track record is conditional, conservative and never a score (D-31).** It replaces candidate 5's blanket non-goal ("no person reputation") with these rules:
+   - **Built from works.** It lists the person's assessed works and arguments, each with its outcome and its basis. It is never a separately stored judgment of the person.
+   - **Conditioned.** It is shown per subject or kind of claim, per context and per time period, with declared incentives and conflicts of interest alongside. It is never pooled across subjects or extrapolated from one field to another.
+   - **No single score.** There is no overall number or rank of a person. Where a summary is shown, it gives counts of outcomes with their period and subject.
+   - **Conservative where the record is thin.** Below a minimum number of independently assessed works in a subject, the view says "insufficient record" and draws no conclusion. People the record knows little about are never characterized.
+   - **Ranks attention, not truth.** A track record may order fact-checking and review work. It never sets a claim's standing, and a new work never borrows standing, good or bad, from its author's record. Each work is judged on its own evidence.
+   - **On request, not proactive.** Track records are shown when a reader asks, never in overviews or retrieval ranking. The person can see their own record and dispute entries through ordinary correction.
+   - **Guard 1 applies.** Only outcomes assessed independently later count, so disagreeing with the prevailing view never lowers a record.
+
+   Attribution stays on every record, because science needs to know who said what.
 
 ---
 
@@ -534,7 +544,7 @@ Each hub has exact projections, a consolidated narrative labeled as synthesis, a
 
 **TE-12 — Nothing deleted unasked.** Retention recommendations only flag; archive keeps history; deletion requires an explicit authorized request showing its effect.
 
-**TE-13 — Source assessments rank works, never decide**; they never reward agreement with the current view, and no person is ranked.
+**TE-13 — Source assessments rank attention, never decide**; they never reward agreement with the current view. A person's track record is built from assessed works, is conditional on subject, context and time, and is never a single score.
 
 **TE-14 — External authority stays external.** SSDS definitions and results are referenced with their owner and qualification, never re-authored.
 
@@ -611,7 +621,7 @@ No implementation is authorized by this sequence.
 
 | # | Decision | Status |
 | --- | --- | --- |
-| 1 | Are persons ranked as sources? | **Decided (D-26):** never; only a person's work is assessed (§6.4) |
+| 1 | Are persons ranked as sources? | **Decided (D-31, superseding D-26):** works are assessed one by one; a person's track record may be built from them, conditionally and conservatively, never as a single score (§6.4) |
 | 2 | Is the strict profile needed in the first product? | **Decided (D-27):** no; added when a project with restricted data needs it |
 | 3 | How far to simplify the rights model (`l r w c d m`) | **Decided (D-28):** four rights: read, write, curate, manage |
 | 4 | Who confirms archival, and what counts as importance | **Decided (D-29):** any curator of the scope confirms. Importance as in §9.1 rule 5 is proposed |
@@ -658,7 +668,8 @@ No implementation is authorized by this sequence.
 | Risk | Consequence | Response |
 | --- | --- | --- |
 | Synthesized "understanding" resolves tension | Status inflation, dissent loss | Status-not-winners projection; narrative labeled; contradiction check against projections (§11) |
-| Source ranking entrenches orthodoxy or turns political | Dissenters down-ranked; people judged instead of work | Track record only from independent later assessment; works assessed, persons never ranked (§6.4, D-26) |
+| Source ranking entrenches orthodoxy or turns political | Dissenters down-ranked; people judged instead of work | Track record only from independent later assessment; works assessed one by one; a person's record conditional, on request, "insufficient record" when thin, never a score (§6.4, D-31) |
+| A track record over-claims about a person | Unfair characterization from sparse or out-of-field evidence | Per-subject and per-period views only; minimum-evidence threshold; no extrapolation; the person can dispute entries (§6.4) |
 | A theory layer makes basic memory heavy | Project-memory users pay for science | Theory records are optional; Slice 1 needs none |
 | Standing propagation is expensive or unstable | Slow or flickering status | Read-time projection with bounded traversal and explicit staleness, as candidate 5 §10.5.3 does for hubs |
 | Unbounded growth with no time-based deletion | Storage and retrieval cost | Archive tier out of default retrieval; space-only deletion suggestions; explicit deletion |
