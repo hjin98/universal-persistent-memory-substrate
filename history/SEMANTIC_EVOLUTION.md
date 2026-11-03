@@ -160,3 +160,50 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the owner accepted the recommendations ("Yes I accept the recommendations, proceed.").
 - **Affected:** `workplans/active/UPMS_Owner_Decisions_2026-11-03.md`, bound to candidate 6.1 and D1 candidate 1.1 by hash. The texts fold the decisions in at their next revision.
 - **Disposition:** owner decisions. Neither text is accepted. A same-family review was requested because the outside-family reviewer is unavailable for now; it cannot substitute for the independent review Gate 0 needs.
+
+## 2026-11-03 — Candidate 6.2 and D1 formulation 1.2 (proposed)
+
+- **Previous:** a same-family review found that, in candidate 6.1:
+  - revising a claim resolved every objection to it;
+  - "assessed-sound" depended on candidate 5's project-memory freshness, so no route could ever be sound;
+  - sealing could leak through sessions, placement, edges, assignment and lifecycle acts;
+  - any objector could block a joint decision at commit;
+  - restore could lose revocations, access records and deletion markers.
+
+  A same-family check found that the candidate 5 reconciliation (A.3) had dropped or misdescribed several candidate 5 properties still needed.
+- **Replacement (proposed, unreviewed):**
+  - Objections are carried to a revised target and stay unresolved.
+  - Scientific standing uses its own effectiveness: latest in its line, in its validity interval, on a current target, with no wall-clock bound. Disagreement shows as "disputed".
+  - The anonymous role is a distinct session type, and only a temporary review-service session may assist a critic.
+  - The core never refuses a decision because an objection exists; late objections travel as a delta. A validated decision is current only once every required signature is in.
+  - A recovery log holds every restrictive and sealing control, and restore applies it before serving.
+  - Records that outlive deletion carry no payload. UPMS-derived representations carry their inputs' restriction tags.
+  - The manual is split into a core, an anonymous-review annex, a checking annex and a change history.
+  - Owner decisions D-47 to D-56 (the owner's "Draft on these", 3 November 2026) are folded in. D-49 amends D-9 as confirmed; D-48 bounds D-39's reach to judgments citing judgments.
+- **Trigger:** the same-family review of 6.1 and the reconciliation check, run because the outside-family reviewer is unavailable for now.
+- **Affected:** the six new files; `workplans/README.md`.
+- **Disposition:** proposals only. Neither check is independent, and the repairs are unreviewed. Candidate 6.1 and D1 1.1 are unchanged.
+
+## 2026-11-03 — Mathematical support: owner decisions D-57 to D-62 and first drafts (proposed)
+
+- **Previous:** mathematics was text. D1 1.2 excluded general theorem proving and had no meaning for models, derivations, symbols or checks.
+- **Replacement (proposed, unreviewed):**
+  - **Owner decisions:**
+    - D-57: models and derivations first, pure mathematics later;
+    - D-58: Lean as the default formal system, in the pure-mathematics package;
+    - D-59: LaTeX;
+    - D-60: checking and computation run as tools of an extended SCIRE, not in the memory;
+    - D-61: agents formalize and humans inspect, with briefs that direct attention, and end-to-end inspection by a designated verifier as the robust route.
+  - **D1 formulation for models and derivations:**
+    - notation is not meaning, so bindings are required;
+    - dimensional checks are cues;
+    - conditions and approximation orders travel with results;
+    - tool checks are relative evidence, and numerical exploration only suggests;
+    - check, fidelity and inspection coverage are separate;
+    - verifiers are designated by project rule, never assessed (D-32);
+    - a brief ranks but never omits, and showing it is exposure, not inspection.
+  - **D3 mathematics annex**, with six core hooks to absorb at the next core revision.
+  - **SCIRE extension proposal**, in the SCIRE repository.
+- **Trigger:** the owner's request for native mathematical support and their answers on 3 November 2026.
+- **Affected:** the four new files; the 6.2 review request (a note that the annex is not under review); `workplans/README.md`.
+- **Disposition:** proposals and owner decisions. The 6.2 core is unchanged; the hooks wait for its next revision.
