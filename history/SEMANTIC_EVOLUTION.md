@@ -91,3 +91,15 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the owner's request on 3 November 2026 for a more appropriate name than "judge", and the clarification that the role is "basically like a chair in the discussion room".
 - **Affected:** `workplans/active/UPMS_Theory_Evidence_Memory_Proposal_v0.1.md` §0.2, §7, §7.1, §15 and §17.
 - **Disposition:** owner decision; the proposal stays unreviewed. The SCIRE front-end specification will define the chair in full.
+
+## 2026-11-03 — Reserved review chair, separate from facilitation (owner decision D-34, revised again)
+
+- **Previous:** one "chair" both ran discussions and held the sealed identities for anonymous critique. When it had a conflict, the seal passed to an agent.
+- **Replacement:**
+  - Ordinary discussion is open, decentralized cross-review in which the PI's arguments are reviewed like anyone's, with no central reviewer and no anonymity.
+  - An optional **facilitator** (SCIRE's existing role) organizes, steers and summarizes, holds no seal and decides nothing.
+  - A **review chair** is appointed only when anonymity or blinded review is needed. It is a neutral agent, or a third-party person, who has not participated in the discussion and has no stake in it, and it holds the sealed identities for that review.
+  - The conflict hand-off rule is no longer needed, because the review chair has no stake by definition.
+- **Trigger:** the owner's observation on 3 November 2026 that the PI's arguments need review too, so a discussion chair cannot be the neutral party. "Let's just reserve this function only when it is needed."
+- **Affected:** `workplans/active/UPMS_Theory_Evidence_Memory_Proposal_v0.1.md` §0.2, §7, §7.1, §15 and §17.
+- **Disposition:** owner decision; the proposal stays unreviewed.

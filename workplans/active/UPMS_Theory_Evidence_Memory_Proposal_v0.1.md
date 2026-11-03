@@ -51,13 +51,7 @@ The owner then settled five of the questions this proposal raised, in conversati
     2. there is no "track record" view of a person; looking up a person's works stays ordinary search by author.
 - **D-33 — Anonymous and blinded review of works.** Critiques and rebuttals of works and arguments may be anonymous, and a review may be single-blind or double-blind. An anonymous critique is a record, not authority: it is judged on its argument and stays open to scrutiny and debate. Claims about a person are never anonymous (D-32).
   - **De-escalation, not unmasking.** An anonymous message that plainly contains a personal attack is blocked: withheld from its recipient and returned to its author to revise. The writer's identity is never revealed for this, because a revealed name would likely escalate a moment the writer would regret face to face.
-- **D-34 — The chair.** Discussion is spontaneous and open by default: participants discuss and critique arguments freely, and anonymity is a reserved choice for those who need it. The **chair** is the general discussion role, like the chair of a discussion room. The chair:
-  - organizes and orchestrates the discussion and manages its direction;
-  - takes opinions and feedback from all sides;
-  - summarizes the situation;
-  - runs the anonymous-critique process when it is needed.
-
-  The holder of sealed identities must be as neutral and third-party as possible, with no conflict of interest: an agent, or an assigned role. (The role was first called the review editor, then the judge, and settled as the chair on 3 November 2026.)
+- **D-34 — Reserved review chair; optional facilitator.** Ordinary discussion is open, spontaneous and decentralized: participants cross-review and debate each other's arguments, the PI's included, and need neither anonymity nor a central reviewer. Anonymity is a reserved function, used only when needed. It then runs under a **review chair**: a neutral agent or third-party person who has not participated in the discussion and has no stake in it, and who holds the sealed identities. A discussion may separately have a **facilitator**, SCIRE's existing role, who organizes, steers and summarizes, holds no seal and decides nothing. (The neutral role was called the review editor, then the judge, then the chair, before this split on 3 November 2026.)
 - **D-27 — No strict profile in the first product.** It is added when a project with restricted data needs it.
 - **D-28 — Four access rights:** read, write, curate, manage. "List" merges into read, and deleting others' items merges into curate.
 - **D-29 — Any curator of the scope** may confirm that a flagged record moves to the archive.
@@ -391,7 +385,7 @@ It may rank retrieval and order fact-checking work. It never sets a claim's stan
 
 | Responsibility | Owner |
 | --- | --- |
-| Meetings and their chair (§7.1), independent critique, crux maps | SCIRE |
+| Meetings and facilitation, reserved anonymous review under a review chair (§7.1), independent critique, crux maps | SCIRE |
 | The secretary: proposing records from discussion | SCIRE proposes; UPMS stores proposals as inert until accepted |
 | Inquiry policy: the objection rule, basis statements before consequential use, finalization, scoped PI authority, overrides, joint sign-off | SCIRE |
 | The discrepancy workflow and comparability elicitation | SCIRE elicits; UPMS stores the assessment |
@@ -411,22 +405,30 @@ It may rank retrieval and order fact-checking work. It never sets a claim's stan
 
 **Other front ends.** Ordinary project memory (task resumption, coordination, personal recall) uses the same engine without the theory layer. Candidate 5 already makes claims and judgments optional for basic recall.
 
-### 7.1 The chair, and anonymous and blinded review (D-33, D-34)
+### 7.1 Facilitation, and reserved anonymous review (D-33, D-34)
 
-**The chair (D-34).** Discussion is open and spontaneous by default: participants discuss and critique arguments freely under their own names. Each discussion has a **chair**, a person or an agent, who:
+**Open, decentralized debate is the default.** Participants discuss and critique each other's arguments freely, under their own names. Most review is cross-review: interdependent checking and debate among peers, with no central reviewer. Everyone's arguments are reviewed, the PI's included. Neither a review chair nor anonymity is needed for an ordinary debate.
+
+**Facilitator (optional).** A discussion may have a facilitator, a person or an agent (SCIRE v0.4 §8.2), who:
 - organizes and orchestrates the discussion and manages its direction;
 - takes opinions and feedback from all sides, including minority positions;
-- summarizes the situation;
-- runs the anonymous-critique process below when someone needs it.
+- summarizes the situation.
 
-The chair absorbs SCIRE v0.4's meeting facilitator (§8.2), whose aim was coverage of material questions and minority positions, not equal speaking time. The secretary still records. Three limits keep the chair fair:
-- **Steering is not deciding.** The chair directs the conversation but takes no scientific decision by virtue of chairing. Decisions follow the project's authority rules (SCIRE §2.2–§2.3), and an agent chair may propose but never decide (SCIRE §8.3).
-- **Summaries are synthesis.** A chair's summary is attributed to the chair and labeled synthesis. It must show the live positions and unresolved objections, and participants can correct it as a new record.
-- **Conflict-free seal.** When the chair has a conflict of interest with an anonymous critique, the sealed identity and any blocking decision for that critique pass to a conflict-free agent. The chair has a conflict when they authored the work being critiqued, when they are its author's close collaborator, or when they are the PI of the project whose work it is. In a group meeting chaired by its PI, the seal therefore sits with an agent.
+The facilitator's aim is coverage of material questions and minority positions, not equal speaking time. Two limits keep it fair:
+- **Steering is not deciding.** Facilitating gives no authority over scientific decisions, which follow the project's own rules (SCIRE §2.2–§2.3). An agent facilitator may propose but never decide (SCIRE §8.3).
+- **Summaries are synthesis.** A facilitator's summary is attributed and labeled synthesis. It must show the live positions and unresolved objections, and participants can correct it as a new record.
 
-**Anonymity is reserved.** It is a choice a participant makes when they need it, not the default.
+The facilitator holds no sealed identities and runs no anonymous review. A participant, including the PI, may facilitate.
 
-**Modes.** A critique or rebuttal of a work or argument is made in one of three modes:
+**Review chair (reserved, D-34).** When someone needs anonymity or a blinded review, a **review chair** is appointed for that review. The review chair is neutral: an agent or a third-party person **who has not participated in the discussion and has no stake in it**. That excludes anyone who wrote the work under review, collaborates closely with its author, critiques it, or is PI of the project whose work it is. An agent review chair is one that has not taken part in the discussion and does not share its context. The review chair:
+- holds the sealed identities for that review;
+- runs its rounds of critique and reply;
+- blocks personal attacks (below);
+- hears the first appeal against a block.
+
+The review chair's lack of conflict is checked against the sealed identities when it is appointed. An agent review chair shows its model and version on every decision, and the author of a blocked message may appeal from it to a human with no stake. When the review chair is an agent, no human sees the sealed identities.
+
+**Modes.** When a review chair is appointed, a critique or rebuttal of a work or argument is made in one of three modes:
 
 | Mode | Author of the work sees the critic? | Critic sees the author? |
 | --- | --- | --- |
@@ -438,28 +440,24 @@ A critic may later choose to sign. Anonymity is never lifted against a writer's 
 
 **Scope of anonymity.** Anonymity covers critiques and rebuttals of **works and arguments**. A claim about a person is always signed (§6.4, D-32), because the critic's own accountability is what makes a judgment of a person acceptable. **AI critics are never anonymous.** Anonymity protects people's careers, and a model has none; its model and version are shown because they are a technical channel with known biases.
 
-**Sealed, not unknown.** UPMS records the true author of every anonymous record (attribution integrity, §8.1) but shows it to no participant. Only the seal-holder sees it: the chair, or a conflict-free agent when the chair has a conflict. It is used for exactly three things:
+**Sealed, not unknown.** UPMS records the true author of every anonymous record (attribution integrity, §8.1) but shows it to no participant. Only the review chair sees it, and it is used for exactly three things:
 - **conflict-of-interest checks:** a reviewer is not the author or a close collaborator;
 - **independence accounting:** several anonymous critiques from one person count as one critic, without revealing who, because agreement is not corroboration (§5.4);
-- **the chair's own conflict check** (above).
+- **the review chair's own conflict check** at appointment.
 
 **De-escalation, not unmasking.** An anonymous message that plainly contains a personal attack is **blocked**:
 - It is withheld from its recipient and returned to its author with the reason, so the author can revise it and resubmit the argument without the attack.
-- The block is a record attributed to the seal-holder.
+- The block is a record attributed to the review chair.
 - The identity is not revealed.
-- In keeping with D-25, the blocked text is kept, sealed and visible only to its author and the seal-holder, and is deleted only on explicit request.
+- In keeping with D-25, the blocked text is kept, sealed and visible only to its author and the review chair, and is deleted only on explicit request.
 
-Blocking applies to attacks on people, never to harsh criticism of a work: a "cruel"-sounding critique of an argument is legitimate review. Where it is unclear which one a message is, the seal-holder returns it with a suggestion rather than blocking it.
-
-**The seal-holder.** The seal-holder is the chair when the chair has no conflict, and otherwise a conflict-free agent. It is as neutral and third-party as possible:
-- **An agent seal-holder** shows its model and version on every decision. Because AI makes mistakes, the author of a blocked message may appeal to a human with no conflict of interest. When the seal-holder is an agent, no human sees the sealed identities.
-- **A human seal-holder** has no conflict of interest with the author or any critic. This is checked against the sealed identities when they take the seal.
+Blocking applies to attacks on people, never to harsh criticism of a work: a "cruel"-sounding critique of an argument is legitimate review. Where it is unclear which one a message is, the review chair returns it with a suggestion rather than blocking it.
 
 **Masked review copies.** Every record is attributed, and its provenance leads back to its authors. A blinded reviewer therefore sees a **review package**: a derived view of the work with attribution masked and provenance withheld, while the canonical record keeps everything. This reuses candidate 5's lineage exclusion for blind work (§10.6.4, decision D-10). Blinding is best effort, and the review package says so: writing style, self-citation and timing can still identify someone.
 
 **Record, not authority.** An anonymous critique follows the ordinary objection rules (§3.4): it is unresolved until resolved, a dispute keeps it visible, and it is judged on its argument. Anonymity neither adds weight nor removes it.
 
-**Ownership.** The SCIRE front end owns the review process: choosing the mode, assigning reviewers, the chair and any conflict-free seal-holder, running rounds of critique and reply, and blocking. UPMS owns sealed attribution, masked review packages and independence accounting.
+**Ownership.** The SCIRE front end owns the discussion and review process: facilitation, appointing a review chair when one is requested, choosing the mode, running rounds of critique and reply, and blocking. UPMS owns sealed attribution, masked review packages and independence accounting.
 
 ---
 
@@ -694,7 +692,7 @@ No implementation is authorized by this sequence.
 | 6 | Approach to judgment on judgment | **Open, technical; left to review.** Proposed: standing as a read-time projection plus explicit judgment bases (§6.1) |
 | 7 | Status of candidate 5 | **Decided (D-23):** frozen as an input; its independent review is not requested |
 | 8 | Anonymous and blinded review | **Decided (D-33):** open, single-blind and double-blind modes for critiques of works; personal attacks blocked and returned, never unmasked (§7.1) |
-| 9 | Who chairs, and who holds sealed identities | **Decided (D-34):** the chair, a general discussion role; when the chair has a conflict with an anonymous critique, a conflict-free agent holds its seal (§7.1) |
+| 9 | Who holds sealed identities | **Decided (D-34):** a review chair, appointed only when anonymity or blinded review is needed: an agent or third-party person who has not participated and has no stake. Ordinary debate needs none; an optional facilitator runs discussion (§7.1) |
 
 ---
 
@@ -738,8 +736,8 @@ No implementation is authorized by this sequence.
 | Source ranking entrenches orthodoxy or turns political | Dissenters down-ranked; people judged instead of work | Track record only from independent later assessment; works judged one by one; people never scored (§6.4, D-32) |
 | Memory misjudges a real person | Harm to someone's reputation, life or career | No person-level output; authorship never an assessment or ranking input; no characterization in synthesis (§6.4, D-32) |
 | Anonymity used for attacks or fake consensus | Personal harm; one critic posing as many | Personal attacks blocked and returned; sealed identity counts one critic once (§7.1) |
-| The chair's steering or summary tilts the discussion | Minority positions sidelined; status inflation | Steering is not deciding; summaries labeled synthesis, attributed and correctable, and must show live positions and unresolved objections (§7.1) |
-| An agent seal-holder blocks legitimate harsh critique | Genuine review suppressed | Harsh criticism of work is never blocked; unclear cases are returned with a suggestion; appeal to a human with no conflict (§7.1) |
+| The facilitator's steering or summary tilts the discussion | Minority positions sidelined; status inflation | Steering is not deciding; summaries labeled synthesis, attributed and correctable, and must show live positions and unresolved objections (§7.1) |
+| An agent review chair blocks legitimate harsh critique | Genuine review suppressed | Harsh criticism of work is never blocked; unclear cases are returned with a suggestion; appeal to a human with no conflict (§7.1) |
 | A theory layer makes basic memory heavy | Project-memory users pay for science | Theory records are optional; Slice 1 needs none |
 | Standing propagation is expensive or unstable | Slow or flickering status | Read-time projection with bounded traversal and explicit staleness, as candidate 5 §10.5.3 does for hubs |
 | Unbounded growth with no time-based deletion | Storage and retrieval cost | Archive tier out of default retrieval; space-only deletion suggestions; explicit deletion |
