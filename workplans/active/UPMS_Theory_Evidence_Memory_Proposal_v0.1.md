@@ -41,11 +41,17 @@ The owner stated these in conversation on 2 November 2026. They continue the UPM
   - Deletion happens only when a user explicitly asks, for example to save space.
   - Retention was not in the owner's original proposal; it was added by an agent.
 
-The owner then settled five of the questions this proposal raised, in conversation on 3 November 2026 (§15), and later that day revised D-26 twice, ending at D-32:
+The owner then settled five of the questions this proposal raised, in conversation on 3 November 2026 (§15), later that day revised D-26 twice, ending at D-32, and added D-33 and D-34 on review:
 
 - **D-26 — Rank a person's work, never the person.** *Superseded by D-31 the same day.* Ranking people introduces politics. Source assessment applies to works (a paper, a dataset, a measurement, an analysis, a reported result), never to a person.
 - **D-31 — A person's track record, conservatively (supersedes D-26).** *Superseded by D-32 the same day.* Ranking a person is not banned, but a person's acts are far more complicated than a score. Works and precise arguments are assessed one by one, and a record may be built from those assessed works, describing past tendency that can change with subject, context, time and incentives. Do this conservatively, and never over-claim about someone the record knows little about.
 - **D-32 — Judge work, never score people (supersedes D-31).** The focus is the work, not the person or their behavior. Labeling or ranking a person can affect their life and career, and this is an area of sensitivity where a misjudgment harms a real person. The most conservative solution is chosen: **people are not scored**, even though a score could help in theory. Works and precise arguments are judged one by one.
+  - **Confirmed after discussion, with two clarifications.** In human debate, a critic of a person stakes their own reputation and can be rebutted, so the exchange is two-sided. A system or agent that judges people stakes nothing, hides its biases and over-simplifies, and that would damage the neutrality everyone relies on. Therefore:
+    1. judgments of people come only from humans, as signed, attributed claims linked to the replies of the person judged;
+    2. there is no "track record" view of a person; looking up a person's works stays ordinary search by author.
+- **D-33 — Anonymous and blinded review of works.** Critiques and rebuttals of works and arguments may be anonymous, and a review may be single-blind or double-blind. An anonymous critique is a record, not authority: it is judged on its argument and stays open to scrutiny and debate. Claims about a person are never anonymous (D-32).
+  - **De-escalation, not unmasking.** An anonymous message that plainly contains a personal attack is blocked: withheld from its recipient and returned to its author to revise. The writer's identity is never revealed for this, because a revealed name would likely escalate a moment the writer would regret face to face.
+- **D-34 — A neutral review editor.** A review runs under an editor who is as neutral and third-party as possible: an agent, or an assigned role with no conflict of interest with either side. The editor holds the sealed identities.
 - **D-27 — No strict profile in the first product.** It is added when a project with restricted data needs it.
 - **D-28 — Four access rights:** read, write, curate, manage. "List" merges into read, and deleting others' items merges into curate.
 - **D-29 — Any curator of the scope** may confirm that a flagged record moves to the archive.
@@ -367,7 +373,9 @@ It may rank retrieval and order fact-checking work. It never sets a claim's stan
    - **No indirect routes.** Authorship is never an input to a work's assessment, to source assessment or to retrieval ranking. No view groups or aggregates works by author in order to compare or characterize authors. A work never borrows standing, good or bad, from its author's other work.
    - **No characterization in synthesis.** Narratives, overlay notes and agent outputs drawn from memory do not characterize a person's reliability, competence or motives. Screening treats such a characterization as a contradiction with this rule, and the narrative is not published (§11). Candidate 5's non-goal of no motive, interest, incentive or threat inference about people (§17.3) stands.
    - **Works are judged one by one.** Each work or precise argument is assessed on its own evidence, and that assessment stays attached to the work.
-   - **Attribution stays.** Every record keeps who said or did what, because science needs it. A reader may look up a person's works, as with any search by author, but the system draws no conclusion about the person from them.
+   - **Attribution stays.** Every record keeps who said or did what, because science needs it. A reader may look up a person's works, as with any search by author, but the system draws no conclusion about the person from them, and there is no "track record" view of a person.
+   - **Only humans judge people, accountably.** A human may record a judgment about a person, for example "X's thermal calculations often have unit errors". It is that human's signed, attributed claim, never anonymous (§7.1). Any reply from the person judged is linked to it and always shown with it. Such claims are never surfaced proactively, never feed the assessment or ranking of any work, and are never repeated by an agent as its own view.
+   - **Institutions count as people here.** No system ranking of labs, groups or publication venues, because ranking them judges the people in them by proxy.
    - **Declared conflicts of interest** are recorded on the work they concern, as facts about that work, never as a judgment of the person.
    - **Non-person channels** (instruments, datasets, databases, model families as technical systems) may still be assessed as channels under guard 1.
 
@@ -396,6 +404,45 @@ It may rank retrieval and order fact-checking work. It never sets a claim's stan
 **What the back end does not decide:** whether a finalization may proceed, who may resolve an objection, or what counts as material. These are SCIRE policies. SCIRE v0.4 §4.4, §4.5 and §2.2–§2.3, with the re-review's repairs (SC-41, V4-04 to V4-07, V4-14), become the front-end specification.
 
 **Other front ends.** Ordinary project memory (task resumption, coordination, personal recall) uses the same engine without the theory layer. Candidate 5 already makes claims and judgments optional for basic recall.
+
+### 7.1 Anonymous and blinded review (D-33, D-34)
+
+**Modes.** A critique or rebuttal of a work or argument is made in one of three modes:
+
+| Mode | Author of the work sees the critic? | Critic sees the author? |
+| --- | --- | --- |
+| Open | Yes | Yes |
+| Single-blind | No | Yes |
+| Double-blind | No | No |
+
+A critic may later choose to sign. Anonymity is never lifted against a writer's will.
+
+**Scope of anonymity.** Anonymity covers critiques and rebuttals of **works and arguments**. A claim about a person is always signed (§6.4, D-32), because the critic's own accountability is what makes a judgment of a person acceptable. **AI critics are never anonymous.** Anonymity protects people's careers, and a model has none; its model and version are shown because they are a technical channel with known biases.
+
+**Sealed, not unknown.** UPMS records the true author of every anonymous record (attribution integrity, §8.1) but shows it to no participant. Only the review editor sees it, and it is used for exactly three things:
+- **conflict-of-interest checks:** a reviewer is not the author or a close collaborator;
+- **independence accounting:** several anonymous critiques from one person count as one critic, without revealing who, because agreement is not corroboration (§5.4);
+- **the editor's own conflict check** (below).
+
+**De-escalation, not unmasking.** An anonymous message that plainly contains a personal attack is **blocked**:
+- It is withheld from its recipient and returned to its author with the reason, so the author can revise it and resubmit the argument without the attack.
+- The block is a record attributed to the editor.
+- The identity is not revealed.
+- In keeping with D-25, the blocked text is kept, sealed and visible only to its author and the editor, and is deleted only on explicit request.
+
+Blocking applies to attacks on people, never to harsh criticism of a work: a "cruel"-sounding critique of an argument is legitimate review. Where it is unclear which one a message is, the editor returns it with a suggestion rather than blocking it.
+
+**The review editor (D-34).** Each review has an editor who is as neutral and third-party as possible:
+- **An agent.** Its decisions show its model and version. Because AI makes mistakes, the author of a blocked message may appeal to a human with no conflict of interest. When the editor is an agent, no human sees the sealed identities.
+- **An assigned human role** with no conflict of interest with the author or any critic. The editor's own conflict is checked against the sealed identities when the editor is assigned.
+
+The PI or project lead is not the editor of reviews of their own project's work.
+
+**Masked review copies.** Every record is attributed, and its provenance leads back to its authors. A blinded reviewer therefore sees a **review package**: a derived view of the work with attribution masked and provenance withheld, while the canonical record keeps everything. This reuses candidate 5's lineage exclusion for blind work (§10.6.4, decision D-10). Blinding is best effort, and the review package says so: writing style, self-citation and timing can still identify someone.
+
+**Record, not authority.** An anonymous critique follows the ordinary objection rules (§3.4): it is unresolved until resolved, a dispute keeps it visible, and it is judged on its argument. Anonymity neither adds weight nor removes it.
+
+**Ownership.** The SCIRE front end owns the review process: choosing the mode, assigning reviewers and the editor, running rounds of critique and reply, and blocking. UPMS owns sealed attribution, masked review packages and independence accounting.
 
 ---
 
@@ -547,6 +594,8 @@ Each hub has exact projections, a consolidated narrative labeled as synthesis, a
 
 **TE-14 — External authority stays external.** SSDS definitions and results are referenced with their owner and qualification, never re-authored.
 
+**TE-15 — Anonymous, not unaccountable.** Anonymous critiques of works keep sealed true attribution, used only for conflict checks and independence accounting; anonymity is never lifted against the writer's will; personal attacks are blocked and returned, never unmasked; claims about people and AI critiques are never anonymous.
+
 ---
 
 ## 13. Capability transfer and impact
@@ -620,13 +669,15 @@ No implementation is authorized by this sequence.
 
 | # | Decision | Status |
 | --- | --- | --- |
-| 1 | Are persons ranked as sources? | **Decided (D-32, superseding D-26 and D-31):** no. Works are judged one by one; people are never scored, ranked or labeled (§6.4) |
+| 1 | Are persons ranked as sources? | **Decided (D-32, superseding D-26 and D-31; confirmed after discussion):** no. Works are judged one by one; people are never scored, ranked or labeled by the system; only humans may judge people, signed and rebuttable; no track-record view (§6.4) |
 | 2 | Is the strict profile needed in the first product? | **Decided (D-27):** no; added when a project with restricted data needs it |
 | 3 | How far to simplify the rights model (`l r w c d m`) | **Decided (D-28):** four rights: read, write, curate, manage |
 | 4 | Who confirms archival, and what counts as importance | **Decided (D-29):** any curator of the scope confirms. Importance as in §9.1 rule 5 is proposed |
 | 5 | Is scientific inquiry now the first journey, or general project memory? | **Decided (D-30):** project memory first (Slice 1), science second (Slice 2) |
 | 6 | Approach to judgment on judgment | **Open, technical; left to review.** Proposed: standing as a read-time projection plus explicit judgment bases (§6.1) |
 | 7 | Status of candidate 5 | **Decided (D-23):** frozen as an input; its independent review is not requested |
+| 8 | Anonymous and blinded review | **Decided (D-33):** open, single-blind and double-blind modes for critiques of works; personal attacks blocked and returned, never unmasked (§7.1) |
+| 9 | Who holds sealed identities | **Decided (D-34):** a neutral review editor, either an agent or an assigned role with no conflict of interest (§7.1) |
 
 ---
 
@@ -669,6 +720,8 @@ No implementation is authorized by this sequence.
 | Synthesized "understanding" resolves tension | Status inflation, dissent loss | Status-not-winners projection; narrative labeled; contradiction check against projections (§11) |
 | Source ranking entrenches orthodoxy or turns political | Dissenters down-ranked; people judged instead of work | Track record only from independent later assessment; works judged one by one; people never scored (§6.4, D-32) |
 | Memory misjudges a real person | Harm to someone's reputation, life or career | No person-level output; authorship never an assessment or ranking input; no characterization in synthesis (§6.4, D-32) |
+| Anonymity used for attacks or fake consensus | Personal harm; one critic posing as many | Personal attacks blocked and returned; sealed identity counts one critic once (§7.1) |
+| An agent editor blocks legitimate harsh critique | Genuine review suppressed | Harsh criticism of work is never blocked; unclear cases are returned with a suggestion; appeal to a human with no conflict (§7.1) |
 | A theory layer makes basic memory heavy | Project-memory users pay for science | Theory records are optional; Slice 1 needs none |
 | Standing propagation is expensive or unstable | Slow or flickering status | Read-time projection with bounded traversal and explicit staleness, as candidate 5 §10.5.3 does for hubs |
 | Unbounded growth with no time-based deletion | Storage and retrieval cost | Archive tier out of default retrieval; space-only deletion suggestions; explicit deletion |
