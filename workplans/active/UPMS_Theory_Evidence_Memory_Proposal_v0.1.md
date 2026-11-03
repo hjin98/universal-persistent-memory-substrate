@@ -1,7 +1,7 @@
 # UPMS Theory–Evidence Memory: Structural Proposal
 
 **Version:** 0.1
-**Date:** 2 November 2026
+**Date:** 2 November 2026; owner decisions added and revised 3 November 2026
 **Status:** PROPOSED. Not accepted and not reviewed. It sets the direction for the next UPMS architecture manual candidate. It does not edit review candidate 5 and is not itself a manual.
 **Author:** Claude (AI, Opus 5.5), at the product owner's request and under the owner decisions in §0.2
 **Governing method:** SSDP 7.2.1. No task or workplan assigns a `protocol_version`.
@@ -20,7 +20,7 @@
 | Interoperability Proposal v0.4 | SCIRE repository, SHA-256 `d901deb5e7bc6f749c4770eb7aef3d75325fee472ef00b5981ee7861666d09e3` | The separated design this proposal replaces for UPMS and SCIRE |
 | SCIRE v0.4 same-family re-review | SCIRE repository, `workplans/active/SCIRE_v0.4_Re-Review.md`, SHA-256 `2d5fb01e6dce22340f87d58bda81caba9001c27adfe56de7d480b0bd9ee6b52e` | Findings SC-41 to SC-43 and V4-04 to V4-20, carried or dissolved in §13 |
 | SSDS 8.0 Architecture Manual (accepted-current, G1) and SSDP references | `scientific-software-development-system`, `orchestrator/docs/ssds-8.0-architecture.md`; `source/shared/references/` | Ideas borrowed in §10. SSDS itself stays outside |
-| Product owner's decisions | This design conversation, 2 November 2026 | D-20 to D-25 below |
+| Product owner's decisions | This design conversation, 2 and 3 November 2026 | D-20 to D-34 below |
 
 ### 0.2 Owner decisions bound by this proposal
 
@@ -41,9 +41,13 @@ The owner stated these in conversation on 2 November 2026. They continue the UPM
   - Deletion happens only when a user explicitly asks, for example to save space.
   - Retention was not in the owner's original proposal; it was added by an agent.
 
-The owner then settled five of the questions this proposal raised, in conversation on 3 November 2026 (§15), later that day revised D-26 twice, ending at D-32, and added D-33 and D-34 on review:
+The owner then settled five of the questions this proposal raised, in conversation on 3 November 2026 (§15; D-26 to D-30). Later that day they revised D-26 twice, ending at D-32, and added D-33 and D-34 on review:
 
 - **D-26 — Rank a person's work, never the person.** *Superseded by D-31 the same day.* Ranking people introduces politics. Source assessment applies to works (a paper, a dataset, a measurement, an analysis, a reported result), never to a person.
+- **D-27 — No strict profile in the first product.** It is added when a project with restricted data needs it.
+- **D-28 — Four access rights:** read, write, curate, manage. "List" merges into read, and deleting others' items merges into curate.
+- **D-29 — Any curator of the scope** may confirm that a flagged record moves to the archive.
+- **D-30 — Project memory first.** The first slice delivers evidence memory; the theory layer and the SCIRE demonstration follow in the second.
 - **D-31 — A person's track record, conservatively (supersedes D-26).** *Superseded by D-32 the same day.* Ranking a person is not banned, but a person's acts are far more complicated than a score. Works and precise arguments are assessed one by one, and a record may be built from those assessed works, describing past tendency that can change with subject, context, time and incentives. Do this conservatively, and never over-claim about someone the record knows little about.
 - **D-32 — Judge work, never score people (supersedes D-31).** The focus is the work, not the person or their behavior. Labeling or ranking a person can affect their life and career, and this is an area of sensitivity where a misjudgment harms a real person. The most conservative solution is chosen: **people are not scored**, even though a score could help in theory. Works and precise arguments are judged one by one.
   - **Confirmed after discussion, with two clarifications.** In human debate, a critic of a person stakes their own reputation and can be rebutted, so the exchange is two-sided. A system or agent that judges people stakes nothing, hides its biases and over-simplifies, and that would damage the neutrality everyone relies on. Therefore:
@@ -52,10 +56,6 @@ The owner then settled five of the questions this proposal raised, in conversati
 - **D-33 — Anonymous and blinded review of works.** Critiques and rebuttals of works and arguments may be anonymous, and a review may be single-blind or double-blind. An anonymous critique is a record, not authority: it is judged on its argument and stays open to scrutiny and debate. Claims about a person are never anonymous (D-32).
   - **De-escalation, not unmasking.** An anonymous message that plainly contains a personal attack is blocked: withheld from its recipient and returned to its author to revise. The writer's identity is never revealed for this, because a revealed name would likely escalate a moment the writer would regret face to face.
 - **D-34 — Reserved review chair; optional facilitator.** Ordinary discussion is open, spontaneous and decentralized: participants cross-review and debate each other's arguments, the PI's included, and need neither anonymity nor a central reviewer. Anonymity is a reserved function, used only when needed. It then runs under a **review chair**: a neutral agent or third-party person who has not participated in the discussion and has no stake in it, and who holds the sealed identities. A discussion may separately have a **facilitator**, SCIRE's existing role, who organizes, steers and summarizes, holds no seal and decides nothing. (The neutral role was called the review editor, then the judge, then the chair, before this split on 3 November 2026.)
-- **D-27 — No strict profile in the first product.** It is added when a project with restricted data needs it.
-- **D-28 — Four access rights:** read, write, curate, manage. "List" merges into read, and deleting others' items merges into curate.
-- **D-29 — Any curator of the scope** may confirm that a flagged record moves to the archive.
-- **D-30 — Project memory first.** The first slice delivers evidence memory; the theory layer and the SCIRE demonstration follow in the second.
 
 Where this text reads a decision narrowly or raises a concern, it says so in place (§6.4, §8.3, §9.1). §15 lists the decisions and what remains open.
 
@@ -426,7 +426,9 @@ The facilitator holds no sealed identities and runs no anonymous review. A parti
 - blocks personal attacks (below);
 - hears the first appeal against a block.
 
-The review chair's lack of conflict is checked against the sealed identities when it is appointed. An agent review chair shows its model and version on every decision, and the author of a blocked message may appeal from it to a human with no stake. When the review chair is an agent, no human sees the sealed identities.
+The review chair's lack of conflict is checked against the sealed identities when it is appointed. An agent review chair shows its model and version on every decision, and the author of a blocked message may appeal from it to a human with no stake. The appeal reviews the blocked text, not the identity. When the review chair is an agent, no human sees the sealed identities.
+
+**Sealed means sealed from administrators too.** Ordinary administrator access (§8.2) does not include sealed attribution. Only the review chair's role can read it, and how that is enforced is D4's to decide. Otherwise D-33's promise that anonymity is never lifted against the writer's will would not hold.
 
 **Modes.** When a review chair is appointed, a critique or rebuttal of a work or argument is made in one of three modes:
 
@@ -484,7 +486,7 @@ Blocking applies to attacks on people, never to harsh criticism of a work: a "cr
 | Release-segment ancestry as an **access requirement** (§8.2, decision D-6 no-laundering) | Keep release records as provenance (what an agent saw, needed for independence and decision exposure). **Drop** automatic inheritance of access requirements. A note lives in the scope it is written to, under the writer's responsibility, as in ordinary academic practice | Inherited taint withholds and expires ordinary scientific notes; candidate 5 itself makes this a reopen trigger (§17.4) |
 | Owner-confirmed publication, substitute confirmers, C4 self-publication (§10.6.2, D-8, D-17) | Replace with plain **sharing**: copy into a scope with attribution and provenance | Exists only to enforce D-6 |
 | Instrumented-runtime profile: handles, segments with reset, checked dispatch, consequence classes C0–C4, grounding (§7.2, §8) | **Out of the memory core.** Action safety belongs to the agent runtime | Memory does not execute actions |
-| Administrator elevation with owner notification and replicated access records (§7.3.6, §11.4, D-1, D-13) | Simple logged administrator access | Sized for an operational tenant |
+| Administrator elevation with owner notification and replicated access records (§7.3.6, §11.4, D-1, D-13) | Simple logged administrator access, which excludes sealed attribution (§7.1) | Sized for an operational tenant |
 | Per-unit cryptographic erasure, staged purge proofs, backup-expiry completion claims (§12.3–§12.5) | Honest deletion: remove from live stores and indexes; report what remains in backups | Proportionate |
 | Requirement closure across scopes for derived items (§7.3.4 step 4, §7.3.5) | Dropped in the default profile | Same reason as D-6 |
 | Restriction epochs and release fences (§9.4), beyond deletion and correction | Keep only for deletion and correction | Proportionate |
@@ -522,7 +524,7 @@ So the structure is a strong defence for **integrity of belief**. It is no defen
 3. **Archive is not deletion.** Any curator of the record's scope may confirm a recommendation and move the record to the archive (D-29). The confirmation is attributed and reversible. An archived record leaves default proactive retrieval and the overviews. It stays fully retrievable on request, and it stays traversable in history, provenance and standing.
    - A refuted claim archived this way is still a dead end someone can find.
    - A record with live dependents (cited by a live claim, an open question or a decision) is never recommended for archive until those dependents are reviewed.
-4. **Deletion only on explicit request**, by an authorized user. The request is shown with its effect: descendants, the arguments and decisions that rely on it, and what will become "input unavailable". Erasure the law or a data agreement requires is exactly such an explicit request.
+4. **Deletion only on explicit request**, by the record's owner or a curator of its scope (D-28). The request is shown with its effect: descendants, the arguments and decisions that rely on it, and what will become "input unavailable". Erasure the law or a data agreement requires is exactly such an explicit request.
 5. **Importance is not truth.** Importance is derived from live dependents, centrality in open questions, recency of use and explicit pins. It ranks recommendations; it never changes standing.
 
 ### 9.2 Consequences for the rest of candidate 5
@@ -574,7 +576,7 @@ Candidate 5 §10.5 stands as the hub hierarchy:
 Each hub has exact projections, a consolidated narrative labeled as synthesis, and an overlay. Additions:
 - **Question pages (L2):** problem, live positions with standing, evidence and arguments for each, unresolved and disputed objections, review obligations, decisions with dissent, outcomes, and what arose from the question.
 - **Understanding section (L1):** open questions, recent shifts in standing, retractions under review, new flags. These are exact projections. Any narrative "current understanding" is labeled synthesis, cites resolvable sources and is replaced only if screening finds no contradiction with the exact projections (candidate 5 §10.5.3).
-- **The guard SCIRE exists for.** Fluent synthesis that smooths over tension inflates status and loses dissent (SCIRE §0). Narratives about theory must name the live alternatives and unresolved objections the projections show. A narrative that omits one is flagged by the same contradiction check.
+- **The guard SCIRE exists for.** Fluent synthesis that smooths over tension inflates status and loses dissent (SCIRE §0). Narratives about theory must name the live alternatives and unresolved objections the projections show. A narrative that omits one is flagged by the same contradiction check. A narrative that characterizes a person's reliability, competence or motives is flagged too, and is not published (§6.4, D-32).
 - **Lifetimes removed.** No deadlines (§9.2). Archived records leave hubs but remain reachable.
 
 ---
@@ -605,7 +607,7 @@ Each hub has exact projections, a consolidated narrative labeled as synthesis, a
 
 **TE-12 — Nothing deleted unasked.** Retention recommendations only flag; archive keeps history; deletion requires an explicit authorized request showing its effect.
 
-**TE-13 — Judge works, never people.** Source assessments rank attention and never decide; they never reward agreement with the current view. No person is scored, ranked or labeled, directly or through author-level aggregation or synthesis.
+**TE-13 — Judge works, never people.** Source assessments rank attention and never decide; they never reward agreement with the current view. The system and its agents never score, rank or label a person, directly or through author-level aggregation or synthesis; only humans may judge people, as signed and rebuttable claims.
 
 **TE-14 — External authority stays external.** SSDS definitions and results are referenced with their owner and qualification, never re-authored.
 
@@ -629,6 +631,7 @@ Each hub has exact projections, a consolidated narrative labeled as synthesis, a
 | Decision kinds, scoped multi-PI authority, joint sign-off | UPMS decision fields (§3.5); SCIRE authority rules |
 | Decision exposure; occurrence time; time scope | UPMS decision exposure via release records; Event `stated_occurrence_time`; statement time scope |
 | Compass with capture coverage | SCIRE view over UPMS projections, plus UPMS coverage (candidate 5 §10.3) |
+| Facilitator (SCIRE §8.2) | SCIRE front end, optional; a reserved review chair is new (§7.1) |
 | SCIRE §9.2 read, retain, disclose; release-set lineage | **Replaced** by UPMS scopes, provenance and the strict profile (§8) |
 | Availability versus eligibility (D-E) | Kept for SSDS links (§10.1); moot between UPMS and SCIRE |
 
@@ -650,7 +653,7 @@ Each hub has exact projections, a consolidated narrative labeled as synthesis, a
 | §2, §5.1, §5.4, §5.6, §5.8, §5.9 | Kept, with §4's vocabulary-versus-meaning distinction |
 | §5.2, §5.3, §5.5, §5.7, §6.1 | Extended by §3–§4 |
 | §6.2–§6.9 | Kept; publication (§6.8) simplified to sharing |
-| §7 trust and access | Simplified by §8 |
+| §7 trust and access | Simplified by §8; four rights (D-28) |
 | §8 runtime flow and egress | Moves out of the core; release records stay as provenance |
 | §9.1–§9.6 commit and freshness | Kept; §9.3 gains the dependency contract of §6.1 |
 | §9.7–§9.8 screening and processing | Extended by §6.2; retraining no longer driven by expiry |
@@ -661,7 +664,7 @@ Each hub has exact projections, a consolidated narrative labeled as synthesis, a
 | §12 retention and deletion | Replaced by §9 and honest deletion |
 | §14.2 pilot defaults | All retention rows removed; security rows simplified |
 | §16 slices | Re-planned (§14) |
-| §18.2 decisions | D-6, D-8, D-12, D-13 and D-17 superseded or moot under D-24 and D-25; D-1 and D-2 simplified; others carried, to be confirmed at the next gate |
+| §18.2 decisions | D-5 superseded by D-28; D-6, D-8, D-12, D-13 and D-17 superseded or moot under D-24 and D-25; D-10 extended by D-33; D-1 and D-2 simplified; others carried, to be confirmed at the next gate |
 
 ---
 
@@ -669,7 +672,7 @@ Each hub has exact projections, a consolidated narrative labeled as synthesis, a
 
 No implementation is authorized by this sequence.
 
-1. **Review this proposal.** The owner confirms or changes §15. A reviewer outside the Claude family checks it before any manual is drafted.
+1. **Review this proposal.** The owner has settled §15 except item 6. A reviewer outside the Claude family checks it before any manual is drafted.
 2. **Draft the next manual candidate and a D1 formulation.** The D1 formulation, the theory–evidence memory semantics, is drawn from §3–§6 and SCIRE v0.4 §§4–7. The SCIRE repository gets a **front-end specification**, drawn from SCIRE v0.4 §§2, 4.4–4.5 and 8, with the re-review's repairs.
 3. **Revised slices** (project memory first, D-30):
    - **Slice 1 — evidence memory.** Candidate 5 Slice 1a-core, simplified: capture, recall, coverage, checkpoints, coordination records, correction, explicit deletion, the overview projections.
@@ -708,7 +711,8 @@ No implementation is authorized by this sequence.
   - decisions with authority, exposure and dissent;
   - review obligations;
   - flags with cues;
-  - archive and deletion records.
+  - archive and deletion records;
+  - anonymous-review records: sealed attribution, blocks and appeals.
 - **Intended readers:** researchers, PIs, reviewers, and agents acting for them; for project memory, the users and overseers of candidate 5 §1.4.
 - **Routine questions:**
   - What do we believe about X, why, and how strongly?
@@ -724,7 +728,8 @@ No implementation is authorized by this sequence.
   - the standing projection with its basis (§6.1);
   - fact-check results (§6.3);
   - the retraction impact view (§5.6);
-  - the retention recommendation queue (§9).
+  - the retention recommendation queue (§9);
+  - masked review packages and the block-and-return flow (§7.1).
 
 ---
 
@@ -749,7 +754,7 @@ No implementation is authorized by this sequence.
 
 ## Appendix A. Independence and coverage
 
-This proposal was written by the same model family, and the same model, as UPMS candidates 4.1 and 5, the SCIRE v0.3 and v0.4 texts and the SCIRE v0.4 re-review. It needs a reviewer from another family before any acceptance.
+This proposal was written by the same model family, and the same model, as UPMS candidates 4.1 and 5, the SCIRE v0.3 and v0.4 texts and the SCIRE v0.4 re-review. This includes the owner-decision revisions of 3 November 2026, which a Claude session recorded. It needs a reviewer from another family before any acceptance.
 
 - **Read directly:**
   - UPMS candidate 5 §§1–10, 14.2 and 16–18, and parts of §12;
