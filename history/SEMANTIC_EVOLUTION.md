@@ -115,3 +115,16 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the owner's answers on 3 November 2026. A fresh agent is always available; a human chair needs explicit assignment by someone with administrator permission; an anonymous critic likely has little or no stake, so should not block progress.
 - **Affected:** `workplans/active/UPMS_Theory_Evidence_Memory_Proposal_v0.1.md` §0.1, §0.2, §7.1, §12 (TE-15), §15 and §17. The objection rule itself is SCIRE front-end policy, and its specification must reflect D-36.
 - **Disposition:** owner decisions; the proposal stays unreviewed. It keeps the label v0.1 and is frozen at its current hash for review.
+
+## 2026-11-03 — Candidate 6 and the D1 theory–evidence formulation (proposed)
+
+- **Previous:** candidate 5 had no D1 parent. Deletion propagated along inherited access requirements (D-6). The proposal left candidate 5 §§11, 12, 13 and 15 unreconciled and judgment on judgment open.
+- **Replacement (proposed, unreviewed):**
+  - A D1 formulation (`UPMS_Theory_Evidence_Formulation_D1_Candidate_1.md`) defines the meaning of the theory–evidence records, standing as a read-time report with no aggregate verdict, and a one-hop applicable set of objections from a decision's cited basis.
+  - Candidate 6 (`UPMS_Architecture_Manual_Review_Candidate_6.md`) applies D-20 to D-36 to candidate 5. Deleting a source purges UPMS-derived representations but not records people wrote from it, which get review obligations; an erasure creates deletion obligations for their owners instead of deleting them.
+  - Two repairs of the proposal's text: a curator's deletion of another's objection, judgment or dissent leaves an attributed marker (SC-61); everything an anonymous-role session causes is sealed, so release records cannot unmask a critic (SC-62).
+  - After Codex's outside-family review of the proposal (NO-PASS) arrived during drafting: standing reads premises only through their effective judgments, so support needs no fixed point; decisions are reported, recorded or validated, and only validated ones make a position current; dissent is kept visible by deterministic mandatory lists, not by screening; an anonymous objection is read as never a procedural veto, though an independently verified invalidity still counts; anonymity is unavailable until its contract is qualified.
+  - Judgment on judgment stays open as a proposed contract; candidate 5's rule governs until the owner decides.
+- **Trigger:** the owner's request on 3 November 2026 to draft candidate 6 and the D1 formulation (proposal §14 step 2), and the Codex review of the proposal that arrived during drafting.
+- **Affected:** the two new files; the review request `UPMS_Review_Request_Candidate_6.md`; `workplans/README.md`, which now also indexes the Codex review.
+- **Disposition:** proposals only. The repairs and the deletion semantics need the owner's confirmation and a reviewer outside the Claude family. Candidate 5 and the proposal are unchanged.

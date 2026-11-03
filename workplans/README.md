@@ -1,6 +1,6 @@
 # Workplans
 
-This index lists the coordination records in `workplans/`. It routes to the documents and is not itself authority: each document states its own status. As of 2 November 2026 no architecture manual is accepted-current.
+This index lists the coordination records in `workplans/`. It routes to the documents and is not itself authority: each document states its own status. As of 3 November 2026 no architecture manual is accepted-current.
 
 ## Lifecycle
 
@@ -29,5 +29,9 @@ This index lists the coordination records in `workplans/`. It routes to the docu
 | `UPMS_Candidate_4_Same_Family_Review.md` | Review record | Same-family (Claude) review of the revised candidate 4: NO-PASS, Serious Challenge SC-1, findings N-01–N-12; not the independent review Gate 0 requires |
 | `UPMS_Architecture_Manual_Review_Candidate_5.md` | Manual, review candidate 5 | Repairs SC-1 and N-01–N-12 (change map in its Appendix A.7), SHA-256 `406cf3b4…`; proposes revised outcomes for D-8, D-9, D-13, D-16 to D-19, pending the owner; not yet reviewed; frozen as an input to the theory–evidence proposal below, and its independent review is not requested (D-23) |
 | `UPMS_Theory_Evidence_Memory_Proposal_v0.1.md` | Structural proposal | Owner decisions D-20 to D-36: one theory–evidence memory, SCIRE as front end, SSDS outside, security proportionate to open science, retention by importance, works judged one by one and people never scored by the system (D-32 supersedes D-26 and D-31), four rights, project memory first, open decentralized debate, with anonymous review reserved for when it is needed, under a neutral review chair (a fresh agent by default), where anonymous objections inform but never block; sets the direction for the next manual candidate; not yet reviewed |
+| `UPMS_Theory_Evidence_Proposal_v0.1_Independent_Review.md` | Review record | Codex (OpenAI GPT-6 family) review of the proposal: NO-PASS, Serious Challenges SC-TE01 to SC-TE05, findings TE-R01 to TE-R20; different-family. Indexed by the candidate 6 change |
+| `UPMS_Theory_Evidence_Formulation_D1_Candidate_1.md` | D1 formulation, candidate 1 | Proposed D1 parent for UPMS: meaning of the theory–evidence records, standing, source assessment and the person guard, drawn from proposal §3–§6 and SCIRE v0.4 §§3–7; not reviewed |
+| `UPMS_Architecture_Manual_Review_Candidate_6.md` | Manual, review candidate 6 | Applies D-20 to D-36 to frozen candidate 5 and reconciles its §§11–13 and 15 with D-24 and D-25 (change map in its Appendix A); folds in bounded repairs for the Codex review (status of each finding in its Appendix A.8); raises Serious Challenges SC-61 and SC-62 against the proposal's text with provisional repairs; judgment on judgment carried as an open proposal; not reviewed |
+| `UPMS_Review_Request_Candidate_6.md` | Review request, not yet sent | Asks a reviewer outside the Claude family to review the D1 formulation and candidate 6 against the Codex findings, by hash |
 
 Not in this repository, although the review packages cite them: candidate 3, the candidate 2 cross-review, the candidate 3 interim review and its sub-reports A, B and C.
