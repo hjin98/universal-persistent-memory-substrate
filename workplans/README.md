@@ -65,5 +65,6 @@ This index lists the coordination records in `workplans/`. It routes to the docu
 | `UPMS_Mathematical_Models_Derivations_D1_Candidate_1_1.md` | D1 formulation, mathematics, candidate 1.1 | Repairs SM-1 to SM-4 and FM-R01 to FM-R11 under D-71 to D-78; changes in Appendix B; unreviewed |
 | `UPMS_Architecture_Manual_Candidate_6_4_Change_History.md` | Change history | A.14, 6.3 → 6.4; A.1 to A.13 stay in the 6.3 change history |
 | `UPMS_Review_Request_Candidate_6_4.md` | Review request, not yet sent | Asks a reviewer outside the Claude family to review D1 1.4 and the 6.4 core with the 6.3 anonymous-review annex, by hash |
+| `UPMS_Review_Handoff_Candidate_6_4/` | Review hand-off (folder) | Byte-identical copies of every file the 6.4 review request binds, plus the SCIRE sources it cites, with a `SHA256SUMS` manifest and a README telling the reviewer how to check the package and deliver the review; the originals stay authoritative |
 
 Not in this repository, although the review packages cite them: candidate 3, the candidate 2 cross-review, the candidate 3 interim review and its sub-reports A, B and C.
