@@ -207,3 +207,43 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the owner's request for native mathematical support and their answers on 3 November 2026.
 - **Affected:** the four new files; the 6.2 review request (a note that the annex is not under review); `workplans/README.md`.
 - **Disposition:** proposals and owner decisions. The 6.2 core is unchanged; the hooks wait for its next revision.
+
+## 2026-11-03 — Candidate 6.3 and D1 1.3: the 6.2 same-family review and owner decisions D-63 to D-70 (proposed)
+
+- **Previous:** in 6.2 and D1 1.2:
+  - retracting or deleting a target resolved its objections as `superseded`;
+  - the route-status table had no status for a valid step on an unestablished premise;
+  - any assessor could supersede another's judgment, and anonymous sessions could submit judgments;
+  - the anonymous annex homed every record in a sealed area, contradicting objection homing;
+  - restore could silently lose objections, and the recovery log could not prove it was the latest;
+  - the late-objection delta was stored on an immutable revision.
+- **Replacement (proposed, unreviewed):**
+  - withdrawal leaves objections unresolved and live (D-63);
+  - a total status table with "premises not established", defined compatibility and cross-scope premises (D-69), and discharged hypotheses excluded from premises (D-70);
+  - supersession by the same assessor only, and no anonymous judgments (D-64);
+  - published anonymous records homed normally with sealed authorship, operational records in a sealed area outside scope permissions;
+  - dissent in the recovery log, a synchronous off-site log copy and a disclosed restore gap (D-65);
+  - a derived delta; front-end registration shown (D-66); the front end and transport in the sealing TCB (D-67); closed-review obligations to curators (D-68).
+  - The mathematics hooks are absorbed, with a seventh (H7) allowing the annex's record kinds. History, concept-level language rules and consolidation moved out of the core.
+- **Trigger:** a same-family review of 6.2 by Claude Fable 5.1, NO-PASS (`UPMS_Candidate_6_2_Same_Family_Review.md`); the owner accepted the author's recommendations ("Proceed with your recommendation").
+- **Affected:** the ten new files listed in `workplans/README.md`.
+- **Disposition:** proposals and owner decisions. The review is not independent and the repairs are unreviewed. The 6.2 files are unchanged.
+
+## 2026-11-03 — Mathematics package revised: owner decisions D-71 to D-78; candidate 6.4, D1 1.4 and mathematics D1 1.1 (proposed)
+
+- **Previous:** in the mathematics package and core 6.3:
+  - a tool-backed step stayed sound after its rendering was found to diverge;
+  - open assumptions and model relations could never be established, so no derivation from a model was ever sound;
+  - discharge was a set difference, so a side-branch use of a hypothesis could vanish;
+  - agents could record inspections and clear their own renderings from the brief;
+  - no ruleset covered fidelity or inspection judgments.
+- **Replacement (proposed, unreviewed):**
+  - carried conditions instead of premises for open hypotheses and model relations (D-71);
+  - path-scoped discharge, checked at commit and listed (D-72);
+  - only humans inspect, and agent or author fidelity is labeled and never clears the mandatory list (D-73);
+  - a divergence triggers review (D-74);
+  - designation guards (D-75), parsing and dimensional screening in a later slice (D-76), tool registration as an operator act (D-77), and same-family checking agents allowed with a label (D-78);
+  - renderings, bindings and tool checks as objection targets; the inquiry ruleset covers fidelity and inspection; models folded into symbol contexts; "verified in full" as a derivation property.
+- **Trigger:** a same-family review of the mathematics package by Claude Fable 5.1, NO-PASS (`UPMS_Mathematics_Package_Same_Family_Review.md`); the owner accepted the author's recommendations ("Accept, draft it").
+- **Affected:** the new files listed in `workplans/README.md`; the SCIRE extension proposal v0.2 in the SCIRE repository.
+- **Disposition:** proposals and owner decisions. The review is not independent and the repairs are unreviewed. The 6.3 files and mathematics D1 candidate 1 are unchanged.
