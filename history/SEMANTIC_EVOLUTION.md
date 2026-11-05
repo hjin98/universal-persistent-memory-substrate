@@ -307,3 +307,11 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the independent review of D1 1.8 and candidate 6.8 by Codex, NO-PASS (`workplans/active/UPMS_Candidate_6_8_Independent_Review.md`); the owner's answers "Simplify the scope" and "2. Accept. 3-6 Proceed with your recommendation."
 - **Affected:** the new files listed in `workplans/README.md`.
 - **Disposition:** proposals; the author's D-90, D-91 and D-93 are superseded. The 6.8 files and D1 1.8 are unchanged.
+
+## 2026-11-05 — Candidate 6.10 and D1 1.10 after the first Gemini-family review (proposed; D-97 pending)
+
+- **Previous:** D1 1.9 and core 6.9 settled an objection everywhere once resolved, so a resolution assessing a revised claim left the earlier, refuted revision showing sound support; travel selected only unresolved or disputed objections, so the "resolved at" label could not appear; a disputed resolution never stopped being disputed; and cross-scope rebinding was promised where the homing rule forbade it.
+- **Replacement (proposed, unreviewed):** one resolution closes an objection's workflow everywhere, but for standing it settles the objection only for the target it assessed (D-97, pending); travel selects objections "open for" a footprint record, with the label; a resolution is disputed only while a dispute of it is open; cross-scope rebinding stated as possible only through a shared review scope.
+- **Trigger:** the independent review of D1 1.9 and candidate 6.9 by Gemini 3.8 Flash, the first by a Gemini-family model, NO-PASS (`workplans/active/UPMS_Candidate_6_9_Independent_Review.md`), under the owner's delegation of the review cycle.
+- **Affected:** the new files listed in `workplans/README.md`.
+- **Disposition:** proposals; D-97 awaits the owner. The 6.9 files and D1 1.9 are unchanged.
