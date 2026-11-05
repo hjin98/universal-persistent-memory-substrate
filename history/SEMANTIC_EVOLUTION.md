@@ -355,3 +355,11 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the Codex review of D1 1.14 and candidate 6.14, NO-PASS (`workplans/active/UPMS_Candidate_6_14_Independent_Review.md`), under the owner's delegation of the review cycle.
 - **Affected:** the new files listed in `workplans/README.md`.
 - **Disposition:** proposals within owner decision D-100, correcting the author's first completion of it. The 6.14 files and D1 1.14 are unchanged.
+
+## 2026-11-05 — D1 1.16 and core 6.17 with annex 6.7 ratified (accepted-current)
+
+- **Previous:** no UPMS D1 or architecture text was accepted-current; every manual in `workplans/active/` was a proposal or review candidate.
+- **Replacement:** the product owner ratified D1 1.16, core 6.17 and anonymous-review annex 6.7 at their hashes after Codex passed them for Gate 0 entry (reviews of 6.15 to 6.17). Core 6.17 and D1 1.16 are editorial revisions of 6.16 and 1.15, which moved history into their change histories.
+- **Trigger:** the owner's answer "Ratify them" (`workplans/active/UPMS_Owner_Ratification_D1_1_16_Core_6_17_2026-11-05.md`).
+- **Affected:** `AGENTS.md` (authority statement), `workplans/README.md`.
+- **Disposition:** Gate 0 is not passed; the checking, Slice 4 and mathematics texts and the proposal are not ratified; the ratified files are frozen and keep their pre-ratification status lines.

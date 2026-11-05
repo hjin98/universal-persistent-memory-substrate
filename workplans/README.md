@@ -1,6 +1,6 @@
 # Workplans
 
-This index lists the coordination records in `workplans/`. It routes to the documents and is not itself authority: each document states its own status. As of 3 November 2026 no architecture manual is accepted-current.
+This index lists the coordination records in `workplans/`. It routes to the documents and is not itself authority: each document states its own status. Since 5 November 2026 the accepted-current texts are D1 1.16 and core 6.17 with anonymous-review annex 6.7, as bound in `UPMS_Owner_Ratification_D1_1_16_Core_6_17_2026-11-05.md`; Gate 0 is not yet passed.
 
 ## Lifecycle
 
@@ -128,7 +128,7 @@ This index lists the coordination records in `workplans/`. It routes to the docu
 | `UPMS_Theory_Evidence_Formulation_D1_Candidate_1_13.md` | D1 formulation, candidate 1.13 | Repairs the 6.12 review: premises established only when eligible support is rooted in events; circular only when that support reaches the conclusion; `broken` needs an effective assessment; unreviewed |
 | `UPMS_Theory_Evidence_Formulation_D1_Candidate_1_13_Change_History.md` | Change history | D1 map O, 1.12 → 1.13 |
 | `UPMS_Architecture_Manual_Review_Candidate_6_13.md` | Manual, review candidate 6.13 (core) | Repairs C613-1 to C613-4: §4.4, §5.3, §9.9, T135, new T137; carries annex 6.7; unreviewed |
-| `UPMS_Architecture_Manual_Review_Candidate_6_7_Annex_Anonymous_Review.md` | Manual 6.13 to 6.17, anonymous-review annex 6.7 | Annex 6.6 with one sentence of §7.8 narrowed to "no decision is refused"; reviewed with 6.13 (NO-PASS); carried unchanged into candidates 6.14 to 6.17 |
+| `UPMS_Architecture_Manual_Review_Candidate_6_7_Annex_Anonymous_Review.md` | Manual 6.13 to 6.17, anonymous-review annex 6.7 | Annex 6.6 with one sentence of §7.8 narrowed to "no decision is refused"; reviewed with 6.13 (NO-PASS); carried unchanged into candidates 6.14 to 6.17; **ratified with core 6.17, accepted-current** |
 | `UPMS_Architecture_Manual_Candidate_6_13_Change_History.md` | Change history | A.23, 6.12 → 6.13 and annex 6.6 → 6.7 |
 | `UPMS_Review_Request_Candidate_6_13.md` | Review request, run with the Codex CLI (OpenAI family); answered by the review below | Asks for review of D1 1.13 and the 6.13 core with anonymous-review annex 6.7, by hash |
 | `UPMS_Candidate_6_13_Independent_Review.md` | Review record (outside the Claude family) | Codex (OpenAI GPT family; same reviewer as the 6.4 to 6.8 and 6.12 reviews and the 6.11 cross-check): **NO-PASS** for D1 1.13 and for core 6.13 with anonymous-review annex 6.7; the 6.12 repairs hold; SC613-01 (a premise-free step roots its conclusion with no event), R613-01 (immediate self-dependence), R613-02 (stress case 41 wording); asks the owner how conditional arguments meet F-25 |
@@ -149,11 +149,12 @@ This index lists the coordination records in `workplans/`. It routes to the docu
 | `UPMS_Architecture_Manual_Candidate_6_16_Change_History.md` | Change history | A.26, 6.15 → 6.16 |
 | `UPMS_Review_Request_Candidate_6_16.md` | Review request, run with the Codex CLI (OpenAI family); answered by the review below | Asks for review of the 6.16 core with anonymous-review annex 6.7 and its unchanged parent D1 1.15, by hash |
 | `UPMS_Candidate_6_16_Independent_Review.md` | Review record (outside the Claude family) | Codex (OpenAI GPT family; same reviewer as the 6.4 to 6.8 and 6.12 to 6.15 reviews and the 6.11 cross-check): **PASS** for Gate 0 entry for D1 1.15 (retained) and for core 6.16 with anonymous-review annex 6.7; no Serious Challenge or other finding; acceptance still needs the owner's ratification and the other Gate 0 deliverables |
-| `UPMS_Theory_Evidence_Formulation_D1_Candidate_1_16.md` | D1 formulation, candidate 1.16 | Editorial revision of 1.15 at the owner's request "Simplify first": predecessor and review history moved to map R; no rule changed; technical PASS in the 6.17 review, not ratified |
+| `UPMS_Theory_Evidence_Formulation_D1_Candidate_1_16.md` | D1 formulation, candidate 1.16 | Editorial revision of 1.15 at the owner's request "Simplify first": predecessor and review history moved to map R; no rule changed; technical PASS in the 6.17 review; **ratified, accepted-current** |
 | `UPMS_Theory_Evidence_Formulation_D1_Candidate_1_16_Change_History.md` | Change history | D1 map R, 1.15 → 1.16, with an index of all D1 change histories |
-| `UPMS_Architecture_Manual_Review_Candidate_6_17.md` | Manual, review candidate 6.17 (core) | Editorial revision of 6.16: history moved to A.27; no rule changed; carries annex 6.7; technical PASS in the 6.17 review, not ratified |
+| `UPMS_Architecture_Manual_Review_Candidate_6_17.md` | Manual, review candidate 6.17 (core) | Editorial revision of 6.16: history moved to A.27; no rule changed; carries annex 6.7; technical PASS in the 6.17 review; **ratified, accepted-current** |
 | `UPMS_Architecture_Manual_Candidate_6_17_Change_History.md` | Change history | A.27, 6.16 → 6.17, with indexes of all change histories and independent reviews |
 | `UPMS_Review_Request_Candidate_6_17.md` | Review request, run with the Codex CLI (OpenAI family); answered by the review below | Asks Codex to confirm the 1.16 and 6.17 revision is editorial, by hash |
 | `UPMS_Candidate_6_17_Independent_Review.md` | Review record (outside the Claude family) | Codex (OpenAI GPT family; same reviewer as the 6.4 to 6.8 and 6.12 to 6.16 reviews and the 6.11 cross-check): **PASS** for Gate 0 entry for D1 1.16 and for core 6.17 with anonymous-review annex 6.7; confirms the revision is editorial and lost nothing material; acceptance still needs the owner's ratification and the other Gate 0 deliverables |
+| `UPMS_Owner_Ratification_D1_1_16_Core_6_17_2026-11-05.md` | Owner ratification record | The owner's answer "Ratify them": D1 1.16, core 6.17 and anonymous-review annex 6.7 accepted-current at their hashes; Gate 0 not passed; the other annexes, the mathematics texts and the proposal not ratified |
 
 Not in this repository, although the review packages cite them: candidate 3, the candidate 2 cross-review, the candidate 3 interim review and its sub-reports A, B and C.
