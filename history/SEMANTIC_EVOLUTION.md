@@ -339,3 +339,11 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the Codex review of D1 1.12 and candidate 6.12, NO-PASS (`workplans/active/UPMS_Candidate_6_12_Independent_Review.md`), under the owner's delegation of the review cycle.
 - **Affected:** the new files listed in `workplans/README.md`.
 - **Disposition:** proposals within owner decisions D-97 to D-99. The 6.12 files, D1 1.12 and annex 6.6 are unchanged.
+
+## 2026-11-05 — Candidate 6.14 and D1 1.14: root witnesses (owner decision D-100; proposed texts)
+
+- **Previous:** D1 1.13 rooted a premise through any cited step whose premises were rooted, so a step with no premises, assessed by nobody, rooted its conclusion with no event behind it and could clear a cycle; rooting ignored whether the steps on the way were valid; a premise identical to the conclusion was not counted as reaching it.
+- **Replacement (proposed, unreviewed):** owner decision D-100. A premise is established only by a finite root witness: eligible supporting judgments and steps with an effective positive inference assessment and no negative one, each meeting the conditions of the step it supports, ending at an applicable event, at an evidence relation not judged unusable, or at a valid step with no premises left. A conclusion rooted only in such a valid argument holds under its carried conditions and is labeled "rooted in a valid argument, not in an event". Circularity stays actual dependence, now including a premise that is the conclusion itself.
+- **Trigger:** the Codex review of D1 1.13 and candidate 6.13, NO-PASS (`workplans/active/UPMS_Candidate_6_13_Independent_Review.md`), which asked the owner how conditional arguments meet F-25; the owner's answer "Adopt the rule".
+- **Affected:** the new files listed in `workplans/README.md`.
+- **Disposition:** the decision is the owner's; the texts are proposals. The 6.13 files, D1 1.13 and annex 6.7 are unchanged.
