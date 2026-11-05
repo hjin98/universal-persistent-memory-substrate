@@ -347,3 +347,11 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the Codex review of D1 1.13 and candidate 6.13, NO-PASS (`workplans/active/UPMS_Candidate_6_13_Independent_Review.md`), which asked the owner how conditional arguments meet F-25; the owner's answer "Adopt the rule".
 - **Affected:** the new files listed in `workplans/README.md`.
 - **Disposition:** the decision is the owner's; the texts are proposals. The 6.13 files, D1 1.13 and annex 6.7 are unchanged.
+
+## 2026-11-05 — Candidate 6.15 and D1 1.15: conditions stop at their discharge (proposed)
+
+- **Previous:** D1 1.14 required every step of a root witness to meet the conditions of the step it supports, with no allowance for discharge, so a valid proof that introduced a hypothesis, reached an intermediate conclusion under it and then discharged it could not support an unconditional step, against D-70 and D-72.
+- **Replacement (proposed, unreviewed):** a step's context is its stated conditions, its conclusion's carried conditions and the hypotheses it discharges; what serves a step is checked against that context, so a condition travels until a step discharges it, and a hypothesis used on a bypass branch stays a carried condition.
+- **Trigger:** the Codex review of D1 1.14 and candidate 6.14, NO-PASS (`workplans/active/UPMS_Candidate_6_14_Independent_Review.md`), under the owner's delegation of the review cycle.
+- **Affected:** the new files listed in `workplans/README.md`.
+- **Disposition:** proposals within owner decision D-100, correcting the author's first completion of it. The 6.14 files and D1 1.14 are unchanged.
