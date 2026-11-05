@@ -128,7 +128,7 @@ This index lists the coordination records in `workplans/`. It routes to the docu
 | `UPMS_Theory_Evidence_Formulation_D1_Candidate_1_13.md` | D1 formulation, candidate 1.13 | Repairs the 6.12 review: premises established only when eligible support is rooted in events; circular only when that support reaches the conclusion; `broken` needs an effective assessment; unreviewed |
 | `UPMS_Theory_Evidence_Formulation_D1_Candidate_1_13_Change_History.md` | Change history | D1 map O, 1.12 → 1.13 |
 | `UPMS_Architecture_Manual_Review_Candidate_6_13.md` | Manual, review candidate 6.13 (core) | Repairs C613-1 to C613-4: §4.4, §5.3, §9.9, T135, new T137; carries annex 6.7; unreviewed |
-| `UPMS_Architecture_Manual_Review_Candidate_6_7_Annex_Anonymous_Review.md` | Manual 6.13 to 6.15, anonymous-review annex 6.7 | Annex 6.6 with one sentence of §7.8 narrowed to "no decision is refused"; reviewed with 6.13 (NO-PASS); carried unchanged into candidates 6.14 and 6.15 |
+| `UPMS_Architecture_Manual_Review_Candidate_6_7_Annex_Anonymous_Review.md` | Manual 6.13 to 6.16, anonymous-review annex 6.7 | Annex 6.6 with one sentence of §7.8 narrowed to "no decision is refused"; reviewed with 6.13 (NO-PASS); carried unchanged into candidates 6.14 to 6.16 |
 | `UPMS_Architecture_Manual_Candidate_6_13_Change_History.md` | Change history | A.23, 6.12 → 6.13 and annex 6.6 → 6.7 |
 | `UPMS_Review_Request_Candidate_6_13.md` | Review request, run with the Codex CLI (OpenAI family); answered by the review below | Asks for review of D1 1.13 and the 6.13 core with anonymous-review annex 6.7, by hash |
 | `UPMS_Candidate_6_13_Independent_Review.md` | Review record (outside the Claude family) | Codex (OpenAI GPT family; same reviewer as the 6.4 to 6.8 and 6.12 reviews and the 6.11 cross-check): **NO-PASS** for D1 1.13 and for core 6.13 with anonymous-review annex 6.7; the 6.12 repairs hold; SC613-01 (a premise-free step roots its conclusion with no event), R613-01 (immediate self-dependence), R613-02 (stress case 41 wording); asks the owner how conditional arguments meet F-25 |
@@ -143,6 +143,10 @@ This index lists the coordination records in `workplans/`. It routes to the docu
 | `UPMS_Theory_Evidence_Formulation_D1_Candidate_1_15_Change_History.md` | Change history | D1 map Q, 1.14 → 1.15 |
 | `UPMS_Architecture_Manual_Review_Candidate_6_15.md` | Manual, review candidate 6.15 (core) | Repairs C615-1 and C615-2: §9.9, T135, new T140; carries annex 6.7; unreviewed |
 | `UPMS_Architecture_Manual_Candidate_6_15_Change_History.md` | Change history | A.25, 6.14 → 6.15 |
-| `UPMS_Review_Request_Candidate_6_15.md` | Review request, run with the Codex CLI (OpenAI family) | Asks for review of D1 1.15 and the 6.15 core with anonymous-review annex 6.7, by hash |
+| `UPMS_Review_Request_Candidate_6_15.md` | Review request, run with the Codex CLI (OpenAI family); answered by the review below | Asks for review of D1 1.15 and the 6.15 core with anonymous-review annex 6.7, by hash |
+| `UPMS_Candidate_6_15_Independent_Review.md` | Review record (outside the Claude family) | Codex (OpenAI GPT family; same reviewer as the 6.4 to 6.8 and 6.12 to 6.14 reviews and the 6.11 cross-check): **PASS** for D1 1.15; **NO-PASS** for core 6.15 with anonymous-review annex 6.7; SC615-01 (T138 contradicts the context rule), R615-01 (T75 and T135 omit preconditions) |
+| `UPMS_Architecture_Manual_Review_Candidate_6_16.md` | Manual, review candidate 6.16 (core) | Repairs C616-1 and C616-2: the rooting scenarios T75, T135 and T138 to T140 cite D1 1.15 §10.3 instead of restating it; D1 1.15 and annex 6.7 unchanged; unreviewed |
+| `UPMS_Architecture_Manual_Candidate_6_16_Change_History.md` | Change history | A.26, 6.15 → 6.16 |
+| `UPMS_Review_Request_Candidate_6_16.md` | Review request, run with the Codex CLI (OpenAI family) | Asks for review of the 6.16 core with anonymous-review annex 6.7 and its unchanged parent D1 1.15, by hash |
 
 Not in this repository, although the review packages cite them: candidate 3, the candidate 2 cross-review, the candidate 3 interim review and its sub-reports A, B and C.
