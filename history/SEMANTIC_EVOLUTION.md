@@ -315,3 +315,11 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the independent review of D1 1.9 and candidate 6.9 by Gemini 3.8 Flash, the first by a Gemini-family model, NO-PASS (`workplans/active/UPMS_Candidate_6_9_Independent_Review.md`), under the owner's delegation of the review cycle.
 - **Affected:** the new files listed in `workplans/README.md`.
 - **Disposition:** proposals; D-97 awaits the owner. The 6.9 files and D1 1.9 are unchanged.
+
+## 2026-11-05 — Candidate 6.11 and D1 1.11: one objection test (proposed; D-97 pending)
+
+- **Previous:** D1 1.10 and core 6.10 judged an objection "open for" a record, but a dispute, which applies to a claim only through the resolution it disputes, stayed open for the claim forever once resolved; F-7, SCIRE's objection rule, the route rule in F-6 and the mandatory lists used different tests.
+- **Replacement (proposed, unreviewed):** "applies through" and "open in" a view, defined once in D1 Definition 2.5, with a dispute applying through the resolution it disputes; every consumer uses that one test; settled objections leave decision lists and stay in history.
+- **Trigger:** the second Gemini-family review, NO-PASS (`workplans/active/UPMS_Candidate_6_10_Independent_Review.md`), under the owner's delegation of the review cycle.
+- **Affected:** the new files listed in `workplans/README.md`.
+- **Disposition:** proposals; D-97 awaits the owner. The 6.10 files and D1 1.10 are unchanged.
