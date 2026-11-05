@@ -114,6 +114,7 @@ This index lists the coordination records in `workplans/`. It routes to the docu
 | `UPMS_Theory_Evidence_Formulation_D1_Candidate_1_11_Change_History.md` | Change history | D1 map M, 1.10 → 1.11 |
 | `UPMS_Architecture_Manual_Review_Candidate_6_11.md` | Manual, review candidate 6.11 (core) | Repairs C611-1 to C611-4: mandatory lists and MV1 use "open in"; T129 and T134 rewritten; carries annex 6.5 and the other annexes unchanged; unreviewed |
 | `UPMS_Architecture_Manual_Candidate_6_11_Change_History.md` | Change history | A.21, 6.10 → 6.11 |
-| `UPMS_Review_Request_Candidate_6_11.md` | Review request, run with the Antigravity CLI (Gemini family) | Asks for review of D1 1.11 and the 6.11 core with anonymous-review annex 6.5, by hash |
+| `UPMS_Review_Request_Candidate_6_11.md` | Review request, run with the Antigravity CLI (Gemini family) ; answered by the Gemini review below | Asks for review of D1 1.11 and the 6.11 core with anonymous-review annex 6.5, by hash |
+| `UPMS_Candidate_6_11_Independent_Review.md` | Review record (outside the Claude family) | Gemini 3.8 Flash (High), the same family as the 6.9 and 6.10 reviews: **PASS** for D1 1.11 and for core 6.11 with anonymous-review annex 6.5, conditional on the owner adopting D-97; one informational finding R611-01 (T83 wording); again cites a nonexistent "D1 §0.3"; run in plan mode, no file changed, saved verbatim |
 
 Not in this repository, although the review packages cite them: candidate 3, the candidate 2 cross-review, the candidate 3 interim review and its sub-reports A, B and C.
