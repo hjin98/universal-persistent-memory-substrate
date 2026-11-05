@@ -323,3 +323,11 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the second Gemini-family review, NO-PASS (`workplans/active/UPMS_Candidate_6_10_Independent_Review.md`), under the owner's delegation of the review cycle.
 - **Affected:** the new files listed in `workplans/README.md`.
 - **Disposition:** proposals; D-97 awaits the owner. The 6.10 files and D1 1.10 are unchanged.
+
+## 2026-11-05 — Candidate 6.12 and D1 1.12: owner decisions D-97 to D-99 (proposed texts)
+
+- **Previous:** D1 1.11 and core 6.11 said both that an anonymous objection marks a route challenged and that route status changes only through attributed judgments; Definition 5.3 could label a relation an independent test of a claim it does not target; and a premise whose supporting judgment cited a source event and no route made its step circular, because the circularity rule was vacuously true for an empty set of cited routes. D-97 was pending.
+- **Replacement (proposed, unreviewed):** D-97 decided in amended form; D-98: an anonymous objection marks routes challenged like any objection and supplies no assessment, nothing being refused because of it; D-99: a supporting judgment may cite an applicable event directly as a terminal basis, a basis that cites nothing is rootless and establishes nothing, and a step is circular only when a premise's grounded support depends on the step's conclusion; the independent-test labels apply only to a relation's own targets.
+- **Trigger:** the Codex cross-check of D1 1.11 and candidate 6.11, NO-PASS (`workplans/active/UPMS_Candidate_6_11_Codex_Cross_Check.md`), which overturned the Gemini PASS; the owner's answer "Accept all three".
+- **Affected:** the new files listed in `workplans/README.md`.
+- **Disposition:** the decisions are the owner's; the texts are proposals. The 6.11 files, D1 1.11 and annex 6.5 are unchanged.
