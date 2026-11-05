@@ -123,6 +123,7 @@ This index lists the coordination records in `workplans/`. It routes to the docu
 | `UPMS_Architecture_Manual_Review_Candidate_6_12.md` | Manual, review candidate 6.12 (core) | Repairs C612-1 to C612-5: §4.4, §5.3, §9.9, TE-07, T83, new T135 and T136; D-97 to D-99 in §18.2; carries annex 6.6; unreviewed |
 | `UPMS_Architecture_Manual_Review_Candidate_6_6_Annex_Anonymous_Review.md` | Manual 6.12, anonymous-review annex 6.6 | Annex 6.5 with one sentence of §7.8 and T99 changed for D-98; unreviewed |
 | `UPMS_Architecture_Manual_Candidate_6_12_Change_History.md` | Change history | A.22, 6.11 → 6.12 and annex 6.5 → 6.6 |
-| `UPMS_Review_Request_Candidate_6_12.md` | Review request, run with the Codex CLI (OpenAI family) | Asks for review of D1 1.12 and the 6.12 core with anonymous-review annex 6.6, by hash |
+| `UPMS_Review_Request_Candidate_6_12.md` | Review request, run with the Codex CLI (OpenAI family); answered by the review below | Asks for review of D1 1.12 and the 6.12 core with anonymous-review annex 6.6, by hash |
+| `UPMS_Candidate_6_12_Independent_Review.md` | Review record (outside the Claude family) | Codex (OpenAI GPT family; same reviewer as the 6.4 to 6.8 reviews and the 6.11 cross-check): **NO-PASS** for D1 1.12 and for core 6.12 with anonymous-review annex 6.6; the 6.11 repairs hold; SC612-01 (route citations without an event root), SC612-02 (an incompatible judgment clears a cycle), SC612-03 (empty-assessment `broken`), R612-01 (no-refusal wording) |
 
 Not in this repository, although the review packages cite them: candidate 3, the candidate 2 cross-review, the candidate 3 interim review and its sub-reports A, B and C.
