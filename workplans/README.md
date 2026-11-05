@@ -137,6 +137,7 @@ This index lists the coordination records in `workplans/`. It routes to the docu
 | `UPMS_Theory_Evidence_Formulation_D1_Candidate_1_14_Change_History.md` | Change history | D1 map P, 1.13 → 1.14 |
 | `UPMS_Architecture_Manual_Review_Candidate_6_14.md` | Manual, review candidate 6.14 (core) | Repairs C614-1 to C614-3: §5.3, §9.9, TE-07, new T138 and T139; D-100 in §18.2; carries annex 6.7; unreviewed |
 | `UPMS_Architecture_Manual_Candidate_6_14_Change_History.md` | Change history | A.24, 6.13 → 6.14 |
-| `UPMS_Review_Request_Candidate_6_14.md` | Review request, run with the Codex CLI (OpenAI family) | Asks for review of D1 1.14 and the 6.14 core with anonymous-review annex 6.7, by hash |
+| `UPMS_Review_Request_Candidate_6_14.md` | Review request, run with the Codex CLI (OpenAI family); answered by the review below | Asks for review of D1 1.14 and the 6.14 core with anonymous-review annex 6.7, by hash |
+| `UPMS_Candidate_6_14_Independent_Review.md` | Review record (outside the Claude family) | Codex (OpenAI GPT family; same reviewer as the 6.4 to 6.8, 6.12 and 6.13 reviews and the 6.11 cross-check): **NO-PASS** for D1 1.14 and for core 6.14 with anonymous-review annex 6.7; the 6.13 repairs hold; SC614-01 (carrying conditions at every step blocks a proof that discharges a hypothesis midway), R614-01 (case 36 and T135 omit the intermediate assessment) |
 
 Not in this repository, although the review packages cite them: candidate 3, the candidate 2 cross-review, the candidate 3 interim review and its sub-reports A, B and C.
