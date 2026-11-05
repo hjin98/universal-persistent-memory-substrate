@@ -121,9 +121,15 @@ This index lists the coordination records in `workplans/`. It routes to the docu
 | `UPMS_Theory_Evidence_Formulation_D1_Candidate_1_12.md` | D1 formulation, candidate 1.12 | Repairs the 6.11 cross-check: anonymous objections and P2 (D-98), Definition 5.3's target domain, terminal and rootless bases and circularity as dependence (D-99); no pending rule; unreviewed |
 | `UPMS_Theory_Evidence_Formulation_D1_Candidate_1_12_Change_History.md` | Change history | D1 map N, 1.11 → 1.12 |
 | `UPMS_Architecture_Manual_Review_Candidate_6_12.md` | Manual, review candidate 6.12 (core) | Repairs C612-1 to C612-5: §4.4, §5.3, §9.9, TE-07, T83, new T135 and T136; D-97 to D-99 in §18.2; carries annex 6.6; unreviewed |
-| `UPMS_Architecture_Manual_Review_Candidate_6_6_Annex_Anonymous_Review.md` | Manual 6.12, anonymous-review annex 6.6 | Annex 6.5 with one sentence of §7.8 and T99 changed for D-98; unreviewed |
+| `UPMS_Architecture_Manual_Review_Candidate_6_6_Annex_Anonymous_Review.md` | Manual 6.12, anonymous-review annex 6.6 | Annex 6.5 with one sentence of §7.8 and T99 changed for D-98; reviewed with 6.12 (NO-PASS); replaced in candidate 6.13 by annex 6.7 |
 | `UPMS_Architecture_Manual_Candidate_6_12_Change_History.md` | Change history | A.22, 6.11 → 6.12 and annex 6.5 → 6.6 |
 | `UPMS_Review_Request_Candidate_6_12.md` | Review request, run with the Codex CLI (OpenAI family); answered by the review below | Asks for review of D1 1.12 and the 6.12 core with anonymous-review annex 6.6, by hash |
 | `UPMS_Candidate_6_12_Independent_Review.md` | Review record (outside the Claude family) | Codex (OpenAI GPT family; same reviewer as the 6.4 to 6.8 reviews and the 6.11 cross-check): **NO-PASS** for D1 1.12 and for core 6.12 with anonymous-review annex 6.6; the 6.11 repairs hold; SC612-01 (route citations without an event root), SC612-02 (an incompatible judgment clears a cycle), SC612-03 (empty-assessment `broken`), R612-01 (no-refusal wording) |
+| `UPMS_Theory_Evidence_Formulation_D1_Candidate_1_13.md` | D1 formulation, candidate 1.13 | Repairs the 6.12 review: premises established only when eligible support is rooted in events; circular only when that support reaches the conclusion; `broken` needs an effective assessment; unreviewed |
+| `UPMS_Theory_Evidence_Formulation_D1_Candidate_1_13_Change_History.md` | Change history | D1 map O, 1.12 → 1.13 |
+| `UPMS_Architecture_Manual_Review_Candidate_6_13.md` | Manual, review candidate 6.13 (core) | Repairs C613-1 to C613-4: §4.4, §5.3, §9.9, T135, new T137; carries annex 6.7; unreviewed |
+| `UPMS_Architecture_Manual_Review_Candidate_6_7_Annex_Anonymous_Review.md` | Manual 6.13, anonymous-review annex 6.7 | Annex 6.6 with one sentence of §7.8 narrowed to "no decision is refused"; unreviewed |
+| `UPMS_Architecture_Manual_Candidate_6_13_Change_History.md` | Change history | A.23, 6.12 → 6.13 and annex 6.6 → 6.7 |
+| `UPMS_Review_Request_Candidate_6_13.md` | Review request, run with the Codex CLI (OpenAI family) | Asks for review of D1 1.13 and the 6.13 core with anonymous-review annex 6.7, by hash |
 
 Not in this repository, although the review packages cite them: candidate 3, the candidate 2 cross-review, the candidate 3 interim review and its sub-reports A, B and C.

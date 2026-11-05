@@ -331,3 +331,11 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the Codex cross-check of D1 1.11 and candidate 6.11, NO-PASS (`workplans/active/UPMS_Candidate_6_11_Codex_Cross_Check.md`), which overturned the Gemini PASS; the owner's answer "Accept all three".
 - **Affected:** the new files listed in `workplans/README.md`.
 - **Disposition:** the decisions are the owner's; the texts are proposals. The 6.11 files, D1 1.11 and annex 6.5 are unchanged.
+
+## 2026-11-05 — Candidate 6.13 and D1 1.13: rooted support (proposed)
+
+- **Previous:** D1 1.12 counted any supporting judgment that cited a route as grounded, so two claims supporting only each other could give a step sound support with no event behind it; an event-backed judgment under an incompatible condition could clear a cycle; an empty set of effective assessments made a route `broken`; and "nothing is refused" overstated D-98.
+- **Replacement (proposed, unreviewed):** a premise is established only when eligible supporting judgments, compatible with the step that uses them at every depth, root it in an applicable event or evidence relation without passing through the step's conclusion; it is circular when it is not so rooted and its eligible support reaches the conclusion, and otherwise without a root; `broken` needs at least one effective assessment; no decision is refused because of an objection.
+- **Trigger:** the Codex review of D1 1.12 and candidate 6.12, NO-PASS (`workplans/active/UPMS_Candidate_6_12_Independent_Review.md`), under the owner's delegation of the review cycle.
+- **Affected:** the new files listed in `workplans/README.md`.
+- **Disposition:** proposals within owner decisions D-97 to D-99. The 6.12 files, D1 1.12 and annex 6.6 are unchanged.
