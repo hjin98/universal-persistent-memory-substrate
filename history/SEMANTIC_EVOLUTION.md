@@ -299,3 +299,11 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the independent review of D1 1.7 and candidate 6.7 by Codex, OpenAI GPT family, the same reviewer as the 6.4 to 6.6 reviews, NO-PASS (`workplans/active/UPMS_Candidate_6_7_Independent_Review.md`), under the owner's delegation of the review cycle.
 - **Affected:** the new files listed in `workplans/README.md`.
 - **Disposition:** proposals; D-90 to D-93 await the owner. The 6.7 files and D1 1.7 are unchanged.
+
+## 2026-11-05 — Candidate 6.9 and D1 1.9: the simplified objection model (proposed)
+
+- **Previous:** D1 1.8 and core 6.8 propagated objections through transitive objection-home registrations, append-only bindings and per-binding resolution, and five reviews in a row found failures where those mechanisms met; Definition 5.3 also let missing provenance pass as independence.
+- **Replacement (proposed, unreviewed):** the owner's simplified first-product model (D-94): objections live in the target's home scope or a registered review scope, which registers none of its own; a carry or rebind keeps the earlier target in a target history; one resolution, labeled with the target it assessed, settles an objection everywhere; a resolution and its disputes live in the home of what they resolve or dispute, so the whole chain sits in one scope. D-92 (objection existence not promised confidential) and D-95 (late delta by identity) decided; Definition 5.3 requires recorded provenance.
+- **Trigger:** the independent review of D1 1.8 and candidate 6.8 by Codex, NO-PASS (`workplans/active/UPMS_Candidate_6_8_Independent_Review.md`); the owner's answers "Simplify the scope" and "2. Accept. 3-6 Proceed with your recommendation."
+- **Affected:** the new files listed in `workplans/README.md`.
+- **Disposition:** proposals; the author's D-90, D-91 and D-93 are superseded. The 6.8 files and D1 1.8 are unchanged.
