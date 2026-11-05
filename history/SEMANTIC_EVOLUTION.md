@@ -274,3 +274,28 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the independent review of D1 1.5 and candidate 6.5 by Codex, OpenAI GPT family, the same reviewer as the 6.4 review, NO-PASS (`workplans/active/UPMS_Candidate_6_5_Independent_Review.md`); the owner accepted the author's recommendations ("Proceed").
 - **Affected:** the new files listed in `workplans/README.md`.
 - **Disposition:** proposals and owner decisions; the repairs are unreviewed. The 6.5 files, D1 1.5 and anonymous-review annex 6.5 are unchanged.
+
+## 2026-11-05 — Candidate 6.7 and D1 1.7 after the third outside-family review (proposed; decisions pending)
+
+- **Previous:** D1 1.6 and core 6.6 tested coverage only over the reliance footprint, while applicability also follows disputes of resolutions, which could be homed elsewhere; selected objections by their current target, so a rebind dropped an objection from decisions on the earlier target; and defined the late-objection delta against a baseline that ended before the decision's commit.
+- **Replacement (proposed, unreviewed; three rules depend on decisions the owner has not made):**
+  - resolutions and their disputes homed among the resolved objection's possible homes, with no restriction tags of their own (D-90, pending);
+  - append-only objection bindings: an objection applies through every target it has been bound to (D-91, pending);
+  - the existence of an objection stated as not confidential, as a first-product limitation (D-92, pending);
+  - the delta's evaluation baseline derived from the policy result's basis and position;
+  - earlier predecessors and reviews moved out of the inputs tables.
+- **Trigger:** the independent review of D1 1.6 and candidate 6.6 by Codex, OpenAI GPT family, the same reviewer as the 6.4 and 6.5 reviews, NO-PASS (`workplans/active/UPMS_Candidate_6_6_Independent_Review.md`); the owner delegated the revision and review cycle to the author, keeping judgment questions for the end.
+- **Affected:** the new files listed in `workplans/README.md`.
+- **Disposition:** proposals; D-90 to D-92 await the owner. The 6.6 files and D1 1.6 are unchanged.
+
+## 2026-11-05 — Candidate 6.8 and D1 1.8 after the fourth outside-family review (proposed; decisions pending)
+
+- **Previous:** D1 1.7 and core 6.7 homed resolutions and disputes by the resolved objection's homes, which a chain of registrations defeated; called any relation with clean use history an independent confirmation, even a refutation; gave each objection one global resolution, so settling it for a successor settled it for earlier revisions; and promised that every target reader sees every objection's existence.
+- **Replacement (proposed, unreviewed; rules marked pending depend on decisions the owner has not made):**
+  - transitive possible homes, resolutions homed by the bindings they resolve, and the induction that makes footprint coverage sufficient stated once in core §5.11 (D-90 amended, pending);
+  - an independent test separated from an independent confirmation, which needs a confirming kind and an effective positive assessment;
+  - resolution and withdrawal per binding (D-93, pending);
+  - objection existence not promised confidential, disclosure left to the access rules (D-92 amended, pending).
+- **Trigger:** the independent review of D1 1.7 and candidate 6.7 by Codex, OpenAI GPT family, the same reviewer as the 6.4 to 6.6 reviews, NO-PASS (`workplans/active/UPMS_Candidate_6_7_Independent_Review.md`), under the owner's delegation of the review cycle.
+- **Affected:** the new files listed in `workplans/README.md`.
+- **Disposition:** proposals; D-90 to D-93 await the owner. The 6.7 files and D1 1.7 are unchanged.
