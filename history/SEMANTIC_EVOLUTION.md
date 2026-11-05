@@ -261,3 +261,16 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the independent review of D1 1.4 and candidate 6.4 by Codex, OpenAI GPT-6 family, NO-PASS (`workplans/active/UPMS_Candidate_6_4_Independent_Review.md`); the owner accepted the author's recommendations ("Proceed with youre recommendation").
 - **Affected:** the new files listed in `workplans/README.md`.
 - **Disposition:** proposals and owner decisions; the repairs are unreviewed. The 6.4 files, D1 1.4 and the 6.3 anonymous-review annex are unchanged.
+
+## 2026-11-05 — Candidate 6.6 and D1 1.6 after the second outside-family review (proposed)
+
+- **Previous:** D1 1.5 and core 6.5 kept a decision's objections as held at commit plus those reached at the read position, so a later objection to an endpoint dropped out when the assessment citing it was replaced; followed one step of sharing copies; computed the coverage statement over the basis only, not the endpoints applicability reaches, and ignored record-level restriction tags, lineage exclusions and retired objection homes; checked rebinds against registration rather than current readers; required a share-time audience check that could not be existence-independent; and left relation target shapes open.
+- **Replacement (proposed, unreviewed):**
+  - one reliance footprint in D1 F-6, over every assessment effective from a decision's commit to the read and the full chain of sharing originals, from which both applicability and coverage are derived; a decision's set only grows (D-86);
+  - coverage over that footprint by configuration alone, with lineage exclusions and retired homes triggering it, and objections that carry no restriction tags of their own (D-87);
+  - sharing labeled with a shared-copy statement instead of guarded, amending D-80, and rebinds checked against current readers (D-88);
+  - fixed target shapes per relation kind (D-89);
+  - more drafting history moved out of both texts (D-85 continued).
+- **Trigger:** the independent review of D1 1.5 and candidate 6.5 by Codex, OpenAI GPT family, the same reviewer as the 6.4 review, NO-PASS (`workplans/active/UPMS_Candidate_6_5_Independent_Review.md`); the owner accepted the author's recommendations ("Proceed").
+- **Affected:** the new files listed in `workplans/README.md`.
+- **Disposition:** proposals and owner decisions; the repairs are unreviewed. The 6.5 files, D1 1.5 and anonymous-review annex 6.5 are unchanged.
