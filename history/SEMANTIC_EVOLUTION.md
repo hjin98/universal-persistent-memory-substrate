@@ -247,3 +247,17 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** a same-family review of the mathematics package by Claude Fable 5.1, NO-PASS (`UPMS_Mathematics_Package_Same_Family_Review.md`); the owner accepted the author's recommendations ("Accept, draft it").
 - **Affected:** the new files listed in `workplans/README.md`; the SCIRE extension proposal v0.2 in the SCIRE repository.
 - **Disposition:** proposals and owner decisions. The review is not independent and the repairs are unreviewed. The 6.3 files and mathematics D1 candidate 1 are unchanged.
+
+## 2026-11-04 — Candidate 6.5 and D1 1.5 after the first outside-family review (proposed)
+
+- **Previous:** D1 1.4 and core 6.4 listed objection endpoints in two places that disagreed, promised that nothing released depends on sealed attribution, checked objection audiences only at creation, counted any usable route as support, let one favorable comparability judgment settle compatibility, and relied on an unenforced ban on citing withdrawn records.
+- **Replacement (proposed, unreviewed):**
+  - one applicability definition in D1 F-6, reaching cited tool checks, renderings and the originals of sharing copies (D-85);
+  - a conflict-based appointment refusal as the one disclosed fact that may depend on sealed attribution, warned of before anonymous writing (D-79);
+  - a coverage statement on every projection whose reader could miss an objection, independent of whether one exists, and a rebind audience check (D-80);
+  - support by direction, with separate supporting and adverse predicates (D-81); "compatibility disputed" (D-82); citable, labeled withdrawn records (D-83);
+  - recovery-log payload erasure, restore closure and outage behavior, keeping D-65 (D-84);
+  - change history moved out of the D1 and core texts (D-85).
+- **Trigger:** the independent review of D1 1.4 and candidate 6.4 by Codex, OpenAI GPT-6 family, NO-PASS (`workplans/active/UPMS_Candidate_6_4_Independent_Review.md`); the owner accepted the author's recommendations ("Proceed with youre recommendation").
+- **Affected:** the new files listed in `workplans/README.md`.
+- **Disposition:** proposals and owner decisions; the repairs are unreviewed. The 6.4 files, D1 1.4 and the 6.3 anonymous-review annex are unchanged.
