@@ -379,3 +379,11 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** three Codex critiques (revision 1 and 2: REVISE BEFORE DRAFTING; revision 3: SOUND TO DRAFT FROM) and owner decisions D-117 to D-120.
 - **Affected:** `workplans/README.md`; the retrieval decision records, notes, requests and critiques of this date.
 - **Disposition:** the D1 addendum, D2 candidate and core revision are to be drafted from revision 3; no ratified text changed.
+
+## 2026-11-05 — Retrieval texts drafted and passed for Gate 0 entry (not ratified)
+
+- **Previous:** the retrieval direction existed only as design note revision 3; the ratified core 6.17 had no governed design beyond its pilot envelope, and no D2 text existed.
+- **Replacement (proposed, unratified):** D1 1.20 adds §16, the meaning of an answer from memory, and opens D2 for retrieval only; D2 1.3 states the pruning guarantee, separate budgets for engine time, internal tokens and returned context, the processing schedule, translation-error measurement and an evaluation that counts every known error and charges shortfalls against one jointly reachable count per request; core 6.21 adds the retrieval-and-scale annex.
+- **Trigger:** owner's request "Start drafting" and four Codex review rounds (6.18 to 6.21), the last giving PASS for Gate 0 entry for all three texts.
+- **Affected:** `workplans/README.md`; the candidate, change-history, request and review files of 6.18 to 6.21.
+- **Disposition:** awaiting the owner's ratification; D1 1.16, core 6.17 and annex 6.7 stay accepted-current until then.
