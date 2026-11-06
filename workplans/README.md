@@ -180,5 +180,22 @@ This index lists the coordination records in `workplans/`. It routes to the docu
 | `UPMS_Candidate_6_18_Independent_Review.md` to `UPMS_Candidate_6_20_Independent_Review.md` | Review records (outside the Claude family) | Codex: 6.18 NO-PASS for all three texts; 6.19 PASS for D1 1.18 only; 6.20 PASS for D1 1.19 only |
 | `UPMS_Candidate_6_21_Independent_Review.md` | Review record (outside the Claude family) | Codex (same reviewer as all earlier Codex records): **PASS for Gate 0 entry for D1 1.20, D2 1.3 and core 6.21 with its annexes**; no Serious Challenge; F621-01 (T148) nonblocking; questions for the owner on the evaluation objective and on values before measurement |
 | `UPMS_Owner_Ratification_D1_1_20_D2_1_3_Core_6_21_2026-11-05.md` | Owner ratification record | The owner's answer "Ratify them": D1 1.20, D2 1.3, core 6.21, the retrieval-and-scale annex and annex 6.7 accepted-current at their hashes, with D2's evaluation objective; Gate 0 not passed; proposed numbers not set |
+| `UPMS_Owner_Decisions_Pilot_Languages_Evaluation_2026-11-05.md` | Owner decision record | D-121: pilot languages English and Chinese (`zh-Hans` assumed); D-122: evaluation values set after calibration on development episodes and frozen before qualification, acceptance on confidence bounds over independent episodes; reads "before measurement" as before the qualifying measurement; §3 corrects two statements the owner was shown |
+| `UPMS_Retrieval_Method_D2_Candidate_1_4.md` | D2 candidate 1.4 | Superseded: first realization of D-122; NO-PASS in its review |
+| `UPMS_Retrieval_Method_D2_Candidate_1_4_Change_History.md` | Change history | D2 1.3 → 1.4 |
+| `UPMS_Review_Request_D2_1_4.md` | Review request | Codex review of D2 1.4 |
+| `UPMS_D2_1_4_Independent_Review.md` | Review record (outside the Claude family) | Codex: **NO-PASS** for D2 1.4; SC-D214-01 to SC-D214-03 (mixed-episode `a_u`, diluted refusal rate, repeated attempts), F-D214-01, F-D214-02 |
+| `UPMS_Retrieval_Method_D2_Candidate_1_5.md` | D2 candidate 1.5 | Superseded; NO-PASS in its review |
+| `UPMS_Retrieval_Method_D2_Candidate_1_5_Change_History.md` | Change history | D2 1.4 → 1.5, with dispositions of the 1.4 review |
+| `UPMS_Review_Request_D2_1_5.md` | Review request | Codex review of D2 1.5 |
+| `UPMS_D2_1_5_Independent_Review.md` | Review record (outside the Claude family) | Codex: **NO-PASS** for D2 1.5; SC-D215-01 (a new plan resets the attempt budget), F-D215-01 |
+| `UPMS_Retrieval_Method_D2_Candidate_1_6.md` | D2 candidate 1.6 | Superseded; NO-PASS in its review |
+| `UPMS_Retrieval_Method_D2_Candidate_1_6_Change_History.md` | Change history | D2 1.5 → 1.6, with dispositions of the 1.5 review |
+| `UPMS_Review_Request_D2_1_6.md` | Review request | Codex review of D2 1.6 |
+| `UPMS_D2_1_6_Independent_Review.md` | Review record (outside the Claude family) | Codex: **NO-PASS** for D2 1.6; SC-D216-01 (separate per-requirement schedules) |
+| `UPMS_Retrieval_Method_D2_Candidate_1_7.md` | D2 candidate 1.7 | Proposed successor of the ratified D2 1.3: planted-fact references with oracle isolation, calibration then qualification, one error budget over joint all-or-nothing attempts; **technical PASS for ratification** in its review; not ratified |
+| `UPMS_Retrieval_Method_D2_Candidate_1_7_Change_History.md` | Change history | D2 1.6 → 1.7, with dispositions of the 1.6 review |
+| `UPMS_Review_Request_D2_1_7.md` | Review request | Codex review of D2 1.7 |
+| `UPMS_D2_1_7_Independent_Review.md` | Review record (outside the Claude family) | Codex (same reviewer as all earlier Codex records, not blind): **PASS for ratification** of D2 1.7 with its change maps from 1.3; no Serious Challenge; F621-01 retained, open and nonblocking |
 
 Not in this repository, although the review packages cite them: candidate 3, the candidate 2 cross-review, the candidate 3 interim review and its sub-reports A, B and C.

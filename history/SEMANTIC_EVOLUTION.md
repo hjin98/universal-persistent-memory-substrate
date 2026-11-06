@@ -395,3 +395,11 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the owner's answer "Ratify them" (`workplans/active/UPMS_Owner_Ratification_D1_1_20_D2_1_3_Core_6_21_2026-11-05.md`).
 - **Affected:** `AGENTS.md` (authority statement), `workplans/README.md`.
 - **Disposition:** Gate 0 is not passed; D2's proposed numbers are not set; the checking, Slice 4 and mathematics texts and the proposal are not ratified; the ratified files are frozen and keep their pre-ratification status lines.
+
+## 2026-11-05 — Pilot languages named; evaluation values set by calibration, acceptance on bounds (D2 1.7 proposed)
+
+- **Previous:** pilot languages were "English plus the languages pilot users write in, named at Gate 0"; D2 1.3 proposed evaluation values "for the owner to set before measurement" and accepted a variant on point rates.
+- **Replacement (proposed, unratified):** D-121 names English and Chinese. Under D-122, D2 1.7 sets values after calibration on development episodes and freezes them before qualification; acceptance uses one-sided exact binomial bounds over independent episodes, one counted request per class, with a stated population for every rate; planted-fact references with oracle isolation; and one error schedule over all qualification attempts, each joint and all-or-nothing, so the 95% assurance covers the variant finally selected.
+- **Trigger:** the owner's answers on pilot languages and "Go ahead" (`workplans/active/UPMS_Owner_Decisions_Pilot_Languages_Evaluation_2026-11-05.md`); four Codex reviews (D2 1.4 to 1.6 NO-PASS, D2 1.7 PASS).
+- **Affected:** `workplans/README.md`; the D2 1.4 to 1.7 candidate, change-history, request and review files.
+- **Disposition:** awaiting the owner's ratification of D2 1.7; D2 1.3 stays accepted-current until then. No evaluation value is set.
