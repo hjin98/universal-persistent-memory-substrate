@@ -371,3 +371,11 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the owner's requirement that "the system must separate memory fidelity (record completeness) and I/O efficiency and accuracy" at archival size, and decisions D-101 to D-116 (`workplans/active/UPMS_Owner_Decisions_Retrieval_Translation_Economy_2026-11-05.md`).
 - **Affected:** `workplans/README.md`; the design note of the same date.
 - **Disposition:** a SERIOUS CHALLENGE to core 6.17's adequacy is routed to D3, with a D1 addendum and a new D2; D1 1.16, core 6.17 and annex 6.7 stay accepted-current until ratified successors replace them.
+
+## 2026-11-05 — Retrieval direction revised after outside critique (direction only)
+
+- **Previous:** design note revision 1 treated an exactly evaluated predicate as a complete answer, promised a cheap exact discovery map, and combined content deduplication with key destruction.
+- **Replacement (direction, no text yet):** exact checks (source, eligibility, predicate) are reported apart from fallible judgments of fidelity, relevance and support; the discovery map starts from cheap qualified summaries; content is deduplicated only within an independently deletable unit; coverage never counts hidden records; reference-only reuse needs shown availability, with refetch always allowed (design note revision 3).
+- **Trigger:** three Codex critiques (revision 1 and 2: REVISE BEFORE DRAFTING; revision 3: SOUND TO DRAFT FROM) and owner decisions D-117 to D-120.
+- **Affected:** `workplans/README.md`; the retrieval decision records, notes, requests and critiques of this date.
+- **Disposition:** the D1 addendum, D2 candidate and core revision are to be drafted from revision 3; no ratified text changed.
