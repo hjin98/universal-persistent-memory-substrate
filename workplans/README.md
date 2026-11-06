@@ -1,6 +1,6 @@
 # Workplans
 
-This index lists the coordination records in `workplans/`. It routes to the documents and is not itself authority: each document states its own status. Since 5 November 2026 the accepted-current texts are D1 1.20, D2 1.3 and core 6.21 with the retrieval-and-scale annex and anonymous-review annex 6.7, as bound in `UPMS_Owner_Ratification_D1_1_20_D2_1_3_Core_6_21_2026-11-05.md`, which replaces the ratification of D1 1.16 and core 6.17; Gate 0 is not yet passed.
+This index lists the coordination records in `workplans/`. It routes to the documents and is not itself authority: each document states its own status. Since 6 November 2026 the accepted-current texts are D1 1.20 and core 6.21 with the retrieval-and-scale annex and anonymous-review annex 6.7, as bound in `UPMS_Owner_Ratification_D1_1_20_D2_1_3_Core_6_21_2026-11-05.md`, which replaces the ratification of D1 1.16 and core 6.17, and D2 1.7, as bound in `UPMS_Owner_Ratification_D2_1_7_2026-11-06.md`, which replaces D2 1.3; Gate 0 is not yet passed.
 
 ## Lifecycle
 
@@ -171,7 +171,7 @@ This index lists the coordination records in `workplans/`. It routes to the docu
 | `UPMS_Theory_Evidence_Formulation_D1_Candidate_1_20.md` | D1 candidate 1.20 | Current D1 candidate: editorial revision of 1.19; **technical PASS for Gate 0 entry** in the 6.21 review; **ratified, accepted-current** |
 | `UPMS_Theory_Evidence_Formulation_D1_Candidate_1_20_Change_History.md` | Change history | Map V, 1.19 → 1.20 |
 | `UPMS_Retrieval_Method_D2_Candidate_1_0.md`, `_1_1.md`, `_1_2.md` and the change histories of 1.1 and 1.2 | D2 candidates (superseded) | First D2 text (retrieval only) and two repairs, each NO-PASS |
-| `UPMS_Retrieval_Method_D2_Candidate_1_3.md` | D2 candidate 1.3 | Current D2 candidate: pruning guarantee, cost and budgets, processing schedule, measurement and evaluation; **technical PASS for Gate 0 entry** in the 6.21 review; **ratified, accepted-current** |
+| `UPMS_Retrieval_Method_D2_Candidate_1_3.md` | D2 candidate 1.3 | Pruning guarantee, cost and budgets, processing schedule, measurement and evaluation; **technical PASS for Gate 0 entry** in the 6.21 review; ratified on 5 November 2026, **superseded** by the ratified D2 1.7 on 6 November; kept because the ratified D1 1.20 and core 6.21 cite it |
 | `UPMS_Retrieval_Method_D2_Candidate_1_3_Change_History.md` | Change history | D2 1.2 → 1.3 |
 | `UPMS_Architecture_Manual_Review_Candidate_6_18.md` to `_6_20.md`, their retrieval-and-scale annexes and change histories A.28 to A.30 | Manual review candidates (superseded) | 6.18 adds the retrieval-and-scale annex; 6.19 and 6.20 repair the reviews; each NO-PASS |
 | `UPMS_Architecture_Manual_Review_Candidate_6_21.md` with `UPMS_Architecture_Manual_Review_Candidate_6_21_Annex_Retrieval_Scale.md` | Manual, review candidate 6.21 (core) and annex | Current core candidate with the retrieval-and-scale annex (R1 to R18) and annex 6.7; **technical PASS for Gate 0 entry** in the 6.21 review; **ratified, accepted-current** |
@@ -193,9 +193,10 @@ This index lists the coordination records in `workplans/`. It routes to the docu
 | `UPMS_Retrieval_Method_D2_Candidate_1_6_Change_History.md` | Change history | D2 1.5 → 1.6, with dispositions of the 1.5 review |
 | `UPMS_Review_Request_D2_1_6.md` | Review request | Codex review of D2 1.6 |
 | `UPMS_D2_1_6_Independent_Review.md` | Review record (outside the Claude family) | Codex: **NO-PASS** for D2 1.6; SC-D216-01 (separate per-requirement schedules) |
-| `UPMS_Retrieval_Method_D2_Candidate_1_7.md` | D2 candidate 1.7 | Proposed successor of the ratified D2 1.3: planted-fact references with oracle isolation, calibration then qualification, one error budget over joint all-or-nothing attempts; **technical PASS for ratification** in its review; not ratified |
+| `UPMS_Retrieval_Method_D2_Candidate_1_7.md` | D2 candidate 1.7 | Current D2: D2 1.3 with planted-fact references and oracle isolation, calibration then qualification, and one error budget over joint all-or-nothing attempts; **technical PASS for ratification** in its review; **ratified, accepted-current** (replaces D2 1.3) |
 | `UPMS_Retrieval_Method_D2_Candidate_1_7_Change_History.md` | Change history | D2 1.6 → 1.7, with dispositions of the 1.6 review |
 | `UPMS_Review_Request_D2_1_7.md` | Review request | Codex review of D2 1.7 |
 | `UPMS_D2_1_7_Independent_Review.md` | Review record (outside the Claude family) | Codex (same reviewer as all earlier Codex records, not blind): **PASS for ratification** of D2 1.7 with its change maps from 1.3; no Serious Challenge; F621-01 retained, open and nonblocking |
+| `UPMS_Owner_Ratification_D2_1_7_2026-11-06.md` | Owner ratification record | The owner's answer "Ratify D2 1.7": D2 1.7 accepted-current at its hash, replacing D2 1.3, with its product-wide qualification procedure; parents' citations of D2 1.3 read as citing 1.7; no evaluation value set; Gate 0 not passed |
 
 Not in this repository, although the review packages cite them: candidate 3, the candidate 2 cross-review, the candidate 3 interim review and its sub-reports A, B and C.

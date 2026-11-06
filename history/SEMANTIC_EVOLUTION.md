@@ -403,3 +403,11 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the owner's answers on pilot languages and "Go ahead" (`workplans/active/UPMS_Owner_Decisions_Pilot_Languages_Evaluation_2026-11-05.md`); four Codex reviews (D2 1.4 to 1.6 NO-PASS, D2 1.7 PASS).
 - **Affected:** `workplans/README.md`; the D2 1.4 to 1.7 candidate, change-history, request and review files.
 - **Disposition:** awaiting the owner's ratification of D2 1.7; D2 1.3 stays accepted-current until then. No evaluation value is set.
+
+## 2026-11-06 — D2 1.7 ratified (accepted-current), replacing D2 1.3
+
+- **Previous:** accepted-current D2 was 1.3, which proposed evaluation values "for the owner to set before measurement" and accepted a variant on point rates.
+- **Replacement:** the owner ratified D2 1.7 at its hash after Codex passed it: values set after calibration and frozen before qualification, acceptance on exact one-sided bounds over independent episodes with a stated population per rate, planted-fact references with oracle isolation, and one error schedule over all qualification attempts, each joint and all-or-nothing. D1 1.20 and core 6.21, which cite D2 1.3, are read as citing 1.7; every cited section keeps its number.
+- **Trigger:** the owner's answer "Ratify D2 1.7" (`workplans/active/UPMS_Owner_Ratification_D2_1_7_2026-11-06.md`).
+- **Affected:** `AGENTS.md` (authority statement), `workplans/README.md`.
+- **Disposition:** Gate 0 is not passed; no evaluation value is set; the pilot's class, language and workload claims remain the owner's to decide with the qualification plan after calibration.
