@@ -363,3 +363,11 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** the owner's answer "Ratify them" (`workplans/active/UPMS_Owner_Ratification_D1_1_16_Core_6_17_2026-11-05.md`).
 - **Affected:** `AGENTS.md` (authority statement), `workplans/README.md`.
 - **Disposition:** Gate 0 is not passed; the checking, Slice 4 and mathematics texts and the proposal are not ratified; the ratified files are frozen and keep their pre-ratification status lines.
+
+## 2026-11-05 — Retrieval at scale: D2 opened, D3 adequacy challenged (direction only)
+
+- **Previous:** the ratified core sized memory at a 10 GiB pilot envelope with requalification beyond it, left partitioning, index structures and filtering to D4, and needed no D2 parent (core 6.17 §1.4, §10.1, §14.2; D1 1.16 §9).
+- **Replacement (direction, no text yet):** memory is designed for GB to TB; a complete fidelity plane is separated from a rebuildable serving plane; retrieval rests on a deterministic tiered index in which approximate methods only add candidates; ingestion and query compilation share one translation layer that annotates and never replaces text; cost is spent by value and every loss is declared.
+- **Trigger:** the owner's requirement that "the system must separate memory fidelity (record completeness) and I/O efficiency and accuracy" at archival size, and decisions D-101 to D-116 (`workplans/active/UPMS_Owner_Decisions_Retrieval_Translation_Economy_2026-11-05.md`).
+- **Affected:** `workplans/README.md`; the design note of the same date.
+- **Disposition:** a SERIOUS CHALLENGE to core 6.17's adequacy is routed to D3, with a D1 addendum and a new D2; D1 1.16, core 6.17 and annex 6.7 stay accepted-current until ratified successors replace them.
