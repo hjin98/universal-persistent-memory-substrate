@@ -387,3 +387,11 @@ Each entry names the previous semantics, the replacement, the triggering evidenc
 - **Trigger:** owner's request "Start drafting" and four Codex review rounds (6.18 to 6.21), the last giving PASS for Gate 0 entry for all three texts.
 - **Affected:** `workplans/README.md`; the candidate, change-history, request and review files of 6.18 to 6.21.
 - **Disposition:** awaiting the owner's ratification; D1 1.16, core 6.17 and annex 6.7 stay accepted-current until then.
+
+## 2026-11-05 — D1 1.20, D2 1.3 and core 6.21 with its annexes ratified (accepted-current)
+
+- **Previous:** accepted-current authority was D1 1.16 and core 6.17 with anonymous-review annex 6.7; no D2 text existed, and the core had no governed design beyond its pilot envelope.
+- **Replacement:** the owner ratified D1 1.20, D2 retrieval method 1.3, core 6.21, its retrieval-and-scale annex and annex 6.7 at their hashes after Codex passed them for Gate 0 entry, together with D2's evaluation objective of charging a partial answer against the largest jointly reachable number of parts.
+- **Trigger:** the owner's answer "Ratify them" (`workplans/active/UPMS_Owner_Ratification_D1_1_20_D2_1_3_Core_6_21_2026-11-05.md`).
+- **Affected:** `AGENTS.md` (authority statement), `workplans/README.md`.
+- **Disposition:** Gate 0 is not passed; D2's proposed numbers are not set; the checking, Slice 4 and mathematics texts and the proposal are not ratified; the ratified files are frozen and keep their pre-ratification status lines.
